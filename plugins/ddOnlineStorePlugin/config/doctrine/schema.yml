@@ -1,0 +1,46 @@
+ProductCategory:
+  actAs:                  
+    NestedSet:            { hasManyRoots: false }
+    Sluggable:            { unique: true, fields: [name], canUpdate: true }
+  columns:
+    id:                   { type: integer(4), primary: true, autoincrement: true }
+    name:                 { type: string(255), notnull: true }
+    description:          { type: clob }
+    
+
+Product:
+  actAs:                  
+    Sluggable:            { unique: true, fields: [name], canUpdate: true }
+    Timestampable:        ~
+  columns:
+    id:                   { type: integer(4), primary: true, autoincrement: true }
+    category_id:          { type: integer(4), notnull: true }
+    name:                 { type: string(255), notnull: true }
+    subname:              { type: string(255) }
+    description:          { type: clob }
+    specifications:       { type: clob }
+    capacity:             { type: integer }
+    price:                { type: decimal, notnull: true }
+    is_available:         { type: boolean, notnull: true, default: 1 }
+    is_featured:          { type: boolean, notnull: true, default: 0 }
+  relations:
+    category:             { class: ProductCategory, local: category_id, foreign: id, foreignAlias: products, onDelete: CASCADE }
+  
+ProductImage:
+  actAs:     
+    Sortable:             
+      uniqueBy:           [ product_id ]
+    JCroppable:
+      images:             [ image_name ]
+  columns:
+    id:                   { type: integer(4), primary: true, autoincrement: true }
+    product_id:           { type: integer(4) }
+  relations:
+    Product:              { local: product_id, foreign: id, foreignAlias: images, onDelete: CASCADE }
+    
+ProductColor:
+  columns:
+    product_id: { type: integer(4), notnull: true }
+    color:      { type: string(6), notnull: true }
+  relations:
+    Product:    { local: product_id, foreign: id, foreignAlias: Colors, onDelete: CASCADE }

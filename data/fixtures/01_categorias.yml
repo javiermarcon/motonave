@@ -1,0 +1,17 @@
+## YAML Template.
+categoria:
+  categoria_1:
+    nombre: Cascos
+  categoria_2:
+    nombre: Accesorios
+  categoria_3:
+    nombre: Indumentaria
+  categoria_4:
+    nombre: 'Cascos - Alta Gama'
+    categoriasPadre: categoria_1
+  categoria_5:
+    nombre: 'Cascos - Alternativos'
+    categoriasPadre: categoria_1
+  categoria_6:
+    nombre: 'Cascos - Basicos'
+    categoriasPadre: categoria_1

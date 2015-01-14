@@ -1,0 +1,62 @@
+#Category routes
+online_store_admin_category:
+  class:                  sfDoctrineRouteCollection
+  options:
+    model:                ProductCategory
+    module:               ddOnlineStoreAdminCategory
+    prefix_path:          /category
+    column:               id
+    with_wildcard_routes: true
+
+online_store_admin_category_manage_tree:
+  url:                    /category/:id/manageTree
+  class:                  sfDoctrineRoute
+  options:                { model: ProductCategory, type: object }
+  param:                  { module: ddOnlineStoreAdminCategory, action: manageTree }
+  requirements:
+    id: \d+
+    sf_method: [get]
+    
+online_store_admin_category_move:
+  class:                  sfRequestRoute
+  url:                    /category/move
+  param:                  { module: ddOnlineStoreAdminCategory, action: move }
+  requirements:
+    sf_method: [post]
+
+
+#Product routes
+online_store_admin_product_color_set_product:
+  url:                    /product_color/set_product/:product_id
+  param:                  { module: ddOnlineStoreAdminProductColor, action: setProductFilter }
+
+online_store_admin_product_color:
+  class:                  sfDoctrineRouteCollection
+  options:
+    model:                ProductColor
+    module:               ddOnlineStoreAdminProductColor
+    prefix_path:          /product/colors
+    column:               id
+    with_wildcard_routes: true
+    
+online_store_admin_product_image_set_product:
+  url:                    /product_image/set_product/:product_id
+  param:                  { module: ddOnlineStoreAdminProductImage, action: setProductFilter }
+
+online_store_admin_product_image:
+  class:                  sfDoctrineRouteCollection
+  options:
+    model:                ProductImage
+    module:               ddOnlineStoreAdminProductImage
+    prefix_path:          /product/images
+    column:               id
+    with_wildcard_routes: true
+    
+online_store_admin_product:
+  class:                  sfDoctrineRouteCollection
+  options:
+    model:                Product
+    module:               ddOnlineStoreAdminProduct
+    prefix_path:          /product
+    column:               id
+    with_wildcard_routes: true

@@ -1,0 +1,90 @@
+## YAML Template.
+---
+cliente:
+  tableName: clientes
+  actAs: { Timestampable: ~ }
+  columns:
+    id:
+      type: integer(20)
+      primary: true
+      #unsigned: true
+      notnull: true
+      autoincrement: true
+    empresa:
+      type: string(100)
+      notnull: true
+      default: ''
+    cuit:
+      type: string(13)
+      notnull: true
+      default: ''
+    direccion:
+      type: string(255)
+      notnull: true
+      default: ''
+    ciudades_id:
+      type: integer(20)
+      #unsigned: true
+      notnull: true
+    telefono:
+      type: string(100)
+      notnull: true
+      default: ''
+    mail:
+      type: string(100)
+      notnull: true
+    web:
+      type: string(100)
+      notnull: false
+      default: ''
+    referencias_comerciales:
+      type: clob(65535)
+      notnull: false
+    transportes_id:
+      type: integer(20)
+      #unsigned: true
+      notnull: true
+    tiposactividades_id:
+      type: integer(20)
+      #unsigned: true
+      notnull: true
+    referidos:
+      type: clob(65535)
+      notnull: false
+    usuarios_id:
+      type: integer(20)
+      #unsigned: true
+      notnull: true
+    created_at:   ~
+    updated_at:   ~
+  relations:
+    transporte:
+      class: transporte
+      local: transportes_id
+      foreign: id
+      foreignAlias: clientes
+    tiposactividad:
+      class: tiposactividad
+      local: tiposactividades_id
+      foreign: id
+      foreignAlias: clientes
+    ciudad:
+      class: ciudad
+      local: ciudades_id
+      foreign: id
+      foreignAlias: clientes
+    #User:
+      #class: sfGuardUser
+      #local: usuarios_id
+      #foreign: id
+      #foreignAlias: Profile
+      #foreignType: one
+      #type: one
+      #onDelete: CASCADE
+  indexes:
+    fk_pro_transportes:
+      fields: [transportes_id]
+    fk_pro_tiposactividades1:
+      fields: [tiposactividades_id]
+    fk_pro_ciudades1:
+      fields: [ciudades_id]

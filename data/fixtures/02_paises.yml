@@ -1,0 +1,1907 @@
+## YAML Template.
+pais:
+  pais_ABW:
+    paises: ciudad_ABW
+    nombre: Aruba
+    continente: 'North America'
+    region: Caribbean
+    nombrelocal: Aruba
+    capital: '129'
+    codigo2: AW
+  pais_AFG:
+    paises: ciudad_AFG
+    nombre: Afghanistan
+    continente: Asia
+    region: 'Southern and Central Asia'
+    nombrelocal: Afganistan/Afqanestan
+    capital: '1'
+    codigo2: AF
+  pais_AGO:
+    paises: ciudad_AGO
+    nombre: Angola
+    continente: Africa
+    region: 'Central Africa'
+    nombrelocal: Angola
+    capital: '56'
+    codigo2: AO
+  pais_AIA:
+    paises: ciudad_AIA
+    nombre: Anguilla
+    continente: 'North America'
+    region: Caribbean
+    nombrelocal: Anguilla
+    capital: '62'
+    codigo2: AI
+  pais_ALB:
+    paises: ciudad_ALB
+    nombre: Albania
+    continente: Europe
+    region: 'Southern Europe'
+    nombrelocal: Shqipëria
+    capital: '34'
+    codigo2: AL
+  pais_AND:
+    paises: ciudad_AND
+    nombre: Andorra
+    continente: Europe
+    region: 'Southern Europe'
+    nombrelocal: Andorra
+    capital: '55'
+    codigo2: AD
+  pais_ANT:
+    paises: ciudad_ANT
+    nombre: 'Netherlands Antilles'
+    continente: 'North America'
+    region: Caribbean
+    nombrelocal: 'Nederlandse Antillen'
+    capital: '33'
+    codigo2: AN
+  pais_ARE:
+    paises: ciudad_ARE
+    nombre: 'United Arab Emirates'
+    continente: Asia
+    region: 'Middle East'
+    nombrelocal: 'Al-Imarat al-´Arabiya al-Muttahida'
+    capital: '65'
+    codigo2: AE
+  pais_ARG:
+    paises: ciudad_ARG
+    nombre: Argentina
+    continente: 'South America'
+    region: 'South America'
+    nombrelocal: Argentina
+    capital: '69'
+    codigo2: AR
+  pais_ARM:
+    paises: ciudad_ARM
+    nombre: Armenia
+    continente: Asia
+    region: 'Middle East'
+    nombrelocal: Hajastan
+    capital: '126'
+    codigo2: AM
+  pais_ASM:
+    paises: ciudad_ASM
+    nombre: 'American Samoa'
+    continente: Oceania
+    region: Polynesia
+    nombrelocal: 'Amerika Samoa'
+    capital: '54'
+    codigo2: AS
+  pais_ATA:
+    nombre: Antarctica
+    continente: Antarctica
+    region: Antarctica
+    nombrelocal: –
+    capital: null
+    codigo2: AQ
+  pais_ATF:
+    nombre: 'French Southern territories'
+    continente: Antarctica
+    region: Antarctica
+    nombrelocal: 'Terres australes françaises'
+    capital: null
+    codigo2: TF
+  pais_ATG:
+    paises: ciudad_ATG
+    nombre: 'Antigua and Barbuda'
+    continente: 'North America'
+    region: Caribbean
+    nombrelocal: 'Antigua and Barbuda'
+    capital: '63'
+    codigo2: AG
+  pais_AUS:
+    paises: ciudad_AUS
+    nombre: Australia
+    continente: Oceania
+    region: 'Australia and New Zealand'
+    nombrelocal: Australia
+    capital: '135'
+    codigo2: AU
+  pais_AUT:
+    paises: ciudad_AUT
+    nombre: Austria
+    continente: Europe
+    region: 'Western Europe'
+    nombrelocal: Österreich
+    capital: '1523'
+    codigo2: AT
+  pais_AZE:
+    paises: ciudad_AZE
+    nombre: Azerbaijan
+    continente: Asia
+    region: 'Middle East'
+    nombrelocal: Azärbaycan
+    capital: '144'
+    codigo2: AZ
+  pais_BDI:
+    paises: ciudad_BDI
+    nombre: Burundi
+    continente: Africa
+    region: 'Eastern Africa'
+    nombrelocal: Burundi/Uburundi
+    capital: '552'
+    codigo2: BI
+  pais_BEL:
+    paises: ciudad_BEL
+    nombre: Belgium
+    continente: Europe
+    region: 'Western Europe'
+    nombrelocal: België/Belgique
+    capital: '179'
+    codigo2: BE
+  pais_BEN:
+    paises: ciudad_BEN
+    nombre: Benin
+    continente: Africa
+    region: 'Western Africa'
+    nombrelocal: Bénin
+    capital: '187'
+    codigo2: BJ
+  pais_BFA:
+    paises: ciudad_BFA
+    nombre: 'Burkina Faso'
+    continente: Africa
+    region: 'Western Africa'
+    nombrelocal: 'Burkina Faso'
+    capital: '549'
+    codigo2: BF
+  pais_BGD:
+    paises: ciudad_BGD
+    nombre: Bangladesh
+    continente: Asia
+    region: 'Southern and Central Asia'
+    nombrelocal: Bangladesh
+    capital: '150'
+    codigo2: BD
+  pais_BGR:
+    paises: ciudad_BGR
+    nombre: Bulgaria
+    continente: Europe
+    region: 'Eastern Europe'
+    nombrelocal: Balgarija
+    capital: '539'
+    codigo2: BG
+  pais_BHR:
+    paises: ciudad_BHR
+    nombre: Bahrain
+    continente: Asia
+    region: 'Middle East'
+    nombrelocal: Al-Bahrayn
+    capital: '149'
+    codigo2: BH
+  pais_BHS:
+    paises: ciudad_BHS
+    nombre: Bahamas
+    continente: 'North America'
+    region: Caribbean
+    nombrelocal: 'The Bahamas'
+    capital: '148'
+    codigo2: BS
+  pais_BIH:
+    paises: ciudad_BIH
+    nombre: 'Bosnia and Herzegovina'
+    continente: Europe
+    region: 'Southern Europe'
+    nombrelocal: 'Bosna i Hercegovina'
+    capital: '201'
+    codigo2: BA
+  pais_BLR:
+    paises: ciudad_BLR
+    nombre: Belarus
+    continente: Europe
+    region: 'Eastern Europe'
+    nombrelocal: Belarus
+    capital: '3520'
+    codigo2: BY
+  pais_BLZ:
+    paises: ciudad_BLZ
+    nombre: Belize
+    continente: 'North America'
+    region: 'Central America'
+    nombrelocal: Belize
+    capital: '185'
+    codigo2: BZ
+  pais_BMU:
+    paises: ciudad_BMU
+    nombre: Bermuda
+    continente: 'North America'
+    region: 'North America'
+    nombrelocal: Bermuda
+    capital: '191'
+    codigo2: BM
+  pais_BOL:
+    paises: ciudad_BOL
+    nombre: Bolivia
+    continente: 'South America'
+    region: 'South America'
+    nombrelocal: Bolivia
+    capital: '194'
+    codigo2: BO
+  pais_BRA:
+    paises: ciudad_BRA
+    nombre: Brazil
+    continente: 'South America'
+    region: 'South America'
+    nombrelocal: Brasil
+    capital: '211'
+    codigo2: BR
+  pais_BRB:
+    paises: ciudad_BRB
+    nombre: Barbados
+    continente: 'North America'
+    region: Caribbean
+    nombrelocal: Barbados
+    capital: '174'
+    codigo2: BB
+  pais_BRN:
+    paises: ciudad_BRN
+    nombre: Brunei
+    continente: Asia
+    region: 'Southeast Asia'
+    nombrelocal: 'Brunei Darussalam'
+    capital: '538'
+    codigo2: BN
+  pais_BTN:
+    paises: ciudad_BTN
+    nombre: Bhutan
+    continente: Asia
+    region: 'Southern and Central Asia'
+    nombrelocal: Druk-Yul
+    capital: '192'
+    codigo2: BT
+  pais_BVT:
+    nombre: 'Bouvet Island'
+    continente: Antarctica
+    region: Antarctica
+    nombrelocal: Bouvetøya
+    capital: null
+    codigo2: BV
+  pais_BWA:
+    paises: ciudad_BWA
+    nombre: Botswana
+    continente: Africa
+    region: 'Southern Africa'
+    nombrelocal: Botswana
+    capital: '204'
+    codigo2: BW
+  pais_CAF:
+    paises: ciudad_CAF
+    nombre: 'Central African Republic'
+    continente: Africa
+    region: 'Central Africa'
+    nombrelocal: Centrafrique/Bê-Afrîka
+    capital: '1889'
+    codigo2: CF
+  pais_CAN:
+    paises: ciudad_CAN
+    nombre: Canada
+    continente: 'North America'
+    region: 'North America'
+    nombrelocal: Canada
+    capital: '1822'
+    codigo2: CA
+  pais_CCK:
+    paises: ciudad_CCK
+    nombre: 'Cocos (Keeling) Islands'
+    continente: Oceania
+    region: 'Australia and New Zealand'
+    nombrelocal: 'Cocos (Keeling) Islands'
+    capital: '2317'
+    codigo2: CC
+  pais_CHE:
+    paises: ciudad_CHE
+    nombre: Switzerland
+    continente: Europe
+    region: 'Western Europe'
+    nombrelocal: Schweiz/Suisse/Svizzera/Svizra
+    capital: '3248'
+    codigo2: CH
+  pais_CHL:
+    paises: ciudad_CHL
+    nombre: Chile
+    continente: 'South America'
+    region: 'South America'
+    nombrelocal: Chile
+    capital: '554'
+    codigo2: CL
+  pais_CHN:
+    paises: ciudad_CHN
+    nombre: China
+    continente: Asia
+    region: 'Eastern Asia'
+    nombrelocal: Zhongquo
+    capital: '1891'
+    codigo2: CN
+  pais_CIV:
+    paises: ciudad_CIV
+    nombre: 'Côte d’Ivoire'
+    continente: Africa
+    region: 'Western Africa'
+    nombrelocal: 'Côte d’Ivoire'
+    capital: '2814'
+    codigo2: CI
+  pais_CMR:
+    paises: ciudad_CMR
+    nombre: Cameroon
+    continente: Africa
+    region: 'Central Africa'
+    nombrelocal: Cameroun/Cameroon
+    capital: '1804'
+    codigo2: CM
+  pais_COD:
+    paises: ciudad_COD
+    nombre: 'Congo, The Democratic Republic of the'
+    continente: Africa
+    region: 'Central Africa'
+    nombrelocal: 'République Démocratique du Congo'
+    capital: '2298'
+    codigo2: CD
+  pais_COG:
+    paises: ciudad_COG
+    nombre: Congo
+    continente: Africa
+    region: 'Central Africa'
+    nombrelocal: Congo
+    capital: '2296'
+    codigo2: CG
+  pais_COK:
+    paises: ciudad_COK
+    nombre: 'Cook Islands'
+    continente: Oceania
+    region: Polynesia
+    nombrelocal: 'The Cook Islands'
+    capital: '583'
+    codigo2: CK
+  pais_COL:
+    paises: ciudad_COL
+    nombre: Colombia
+    continente: 'South America'
+    region: 'South America'
+    nombrelocal: Colombia
+    capital: '2257'
+    codigo2: CO
+  pais_COM:
+    paises: ciudad_COM
+    nombre: Comoros
+    continente: Africa
+    region: 'Eastern Africa'
+    nombrelocal: Komori/Comores
+    capital: '2295'
+    codigo2: KM
+  pais_CPV:
+    paises: ciudad_CPV
+    nombre: 'Cape Verde'
+    continente: Africa
+    region: 'Western Africa'
+    nombrelocal: 'Cabo Verde'
+    capital: '1859'
+    codigo2: CV
+  pais_CRI:
+    paises: ciudad_CRI
+    nombre: 'Costa Rica'
+    continente: 'North America'
+    region: 'Central America'
+    nombrelocal: 'Costa Rica'
+    capital: '584'
+    codigo2: CR
+  pais_CUB:
+    paises: ciudad_CUB
+    nombre: Cuba
+    continente: 'North America'
+    region: Caribbean
+    nombrelocal: Cuba
+    capital: '2413'
+    codigo2: CU
+  pais_CXR:
+    paises: ciudad_CXR
+    nombre: 'Christmas Island'
+    continente: Oceania
+    region: 'Australia and New Zealand'
+    nombrelocal: 'Christmas Island'
+    capital: '1791'
+    codigo2: CX
+  pais_CYM:
+    paises: ciudad_CYM
+    nombre: 'Cayman Islands'
+    continente: 'North America'
+    region: Caribbean
+    nombrelocal: 'Cayman Islands'
+    capital: '553'
+    codigo2: KY
+  pais_CYP:
+    paises: ciudad_CYP
+    nombre: Cyprus
+    continente: Asia
+    region: 'Middle East'
+    nombrelocal: Kýpros/Kibris
+    capital: '2430'
+    codigo2: CY
+  pais_CZE:
+    paises: ciudad_CZE
+    nombre: 'Czech Republic'
+    continente: Europe
+    region: 'Eastern Europe'
+    nombrelocal: ¸esko
+    capital: '3339'
+    codigo2: CZ
+  pais_DEU:
+    paises: ciudad_DEU
+    nombre: Germany
+    continente: Europe
+    region: 'Western Europe'
+    nombrelocal: Deutschland
+    capital: '3068'
+    codigo2: DE
+  pais_DJI:
+    paises: ciudad_DJI
+    nombre: Djibouti
+    continente: Africa
+    region: 'Eastern Africa'
+    nombrelocal: Djibouti/Jibuti
+    capital: '585'
+    codigo2: DJ
+  pais_DMA:
+    paises: ciudad_DMA
+    nombre: Dominica
+    continente: 'North America'
+    region: Caribbean
+    nombrelocal: Dominica
+    capital: '586'
+    codigo2: DM
+  pais_DNK:
+    paises: ciudad_DNK
+    nombre: Denmark
+    continente: Europe
+    region: 'Nordic Countries'
+    nombrelocal: Danmark
+    capital: '3315'
+    codigo2: DK
+  pais_DOM:
+    paises: ciudad_DOM
+    nombre: 'Dominican Republic'
+    continente: 'North America'
+    region: Caribbean
+    nombrelocal: 'República Dominicana'
+    capital: '587'
+    codigo2: DO
+  pais_DZA:
+    paises: ciudad_DZA
+    nombre: Algeria
+    continente: Africa
+    region: 'Northern Africa'
+    nombrelocal: Al-Jaza’ir/Algérie
+    capital: '35'
+    codigo2: DZ
+  pais_ECU:
+    paises: ciudad_ECU
+    nombre: Ecuador
+    continente: 'South America'
+    region: 'South America'
+    nombrelocal: Ecuador
+    capital: '594'
+    codigo2: EC
+  pais_EGY:
+    paises: ciudad_EGY
+    nombre: Egypt
+    continente: Africa
+    region: 'Northern Africa'
+    nombrelocal: Misr
+    capital: '608'
+    codigo2: EG
+  pais_ERI:
+    paises: ciudad_ERI
+    nombre: Eritrea
+    continente: Africa
+    region: 'Eastern Africa'
+    nombrelocal: Ertra
+    capital: '652'
+    codigo2: ER
+  pais_ESH:
+    paises: ciudad_ESH
+    nombre: 'Western Sahara'
+    continente: Africa
+    region: 'Northern Africa'
+    nombrelocal: As-Sahrawiya
+    capital: '2453'
+    codigo2: EH
+  pais_ESP:
+    paises: ciudad_ESP
+    nombre: Spain
+    continente: Europe
+    region: 'Southern Europe'
+    nombrelocal: España
+    capital: '653'
+    codigo2: ES
+  pais_EST:
+    paises: ciudad_EST
+    nombre: Estonia
+    continente: Europe
+    region: 'Baltic Countries'
+    nombrelocal: Eesti
+    capital: '3791'
+    codigo2: EE
+  pais_ETH:
+    paises: ciudad_ETH
+    nombre: Ethiopia
+    continente: Africa
+    region: 'Eastern Africa'
+    nombrelocal: YeItyop´iya
+    capital: '756'
+    codigo2: ET
+  pais_FIN:
+    paises: ciudad_FIN
+    nombre: Finland
+    continente: Europe
+    region: 'Nordic Countries'
+    nombrelocal: Suomi
+    capital: '3236'
+    codigo2: FI
+  pais_FJI:
+    paises: ciudad_FJI
+    nombre: 'Fiji Islands'
+    continente: Oceania
+    region: Melanesia
+    nombrelocal: 'Fiji Islands'
+    capital: '764'
+    codigo2: FJ
+  pais_FLK:
+    paises: ciudad_FLK
+    nombre: 'Falkland Islands'
+    continente: 'South America'
+    region: 'South America'
+    nombrelocal: 'Falkland Islands'
+    capital: '763'
+    codigo2: FK
+  pais_FRA:
+    paises: ciudad_FRA
+    nombre: France
+    continente: Europe
+    region: 'Western Europe'
+    nombrelocal: France
+    capital: '2974'
+    codigo2: FR
+  pais_FRO:
+    paises: ciudad_FRO
+    nombre: 'Faroe Islands'
+    continente: Europe
+    region: 'Nordic Countries'
+    nombrelocal: Føroyar
+    capital: '901'
+    codigo2: FO
+  pais_FSM:
+    paises: ciudad_FSM
+    nombre: 'Micronesia, Federated States of'
+    continente: Oceania
+    region: Micronesia
+    nombrelocal: Micronesia
+    capital: '2689'
+    codigo2: FM
+  pais_GAB:
+    paises: ciudad_GAB
+    nombre: Gabon
+    continente: Africa
+    region: 'Central Africa'
+    nombrelocal: 'Le Gabon'
+    capital: '902'
+    codigo2: GA
+  pais_GBR:
+    paises: ciudad_GBR
+    nombre: 'United Kingdom'
+    continente: Europe
+    region: 'British Islands'
+    nombrelocal: 'United Kingdom'
+    capital: '456'
+    codigo2: GB
+  pais_GEO:
+    paises: ciudad_GEO
+    nombre: Georgia
+    continente: Asia
+    region: 'Middle East'
+    nombrelocal: Sakartvelo
+    capital: '905'
+    codigo2: GE
+  pais_GHA:
+    paises: ciudad_GHA
+    nombre: Ghana
+    continente: Africa
+    region: 'Western Africa'
+    nombrelocal: Ghana
+    capital: '910'
+    codigo2: GH
+  pais_GIB:
+    paises: ciudad_GIB
+    nombre: Gibraltar
+    continente: Europe
+    region: 'Southern Europe'
+    nombrelocal: Gibraltar
+    capital: '915'
+    codigo2: GI
+  pais_GIN:
+    paises: ciudad_GIN
+    nombre: Guinea
+    continente: Africa
+    region: 'Western Africa'
+    nombrelocal: Guinée
+    capital: '926'
+    codigo2: GN
+  pais_GLP:
+    paises: ciudad_GLP
+    nombre: Guadeloupe
+    continente: 'North America'
+    region: Caribbean
+    nombrelocal: Guadeloupe
+    capital: '919'
+    codigo2: GP
+  pais_GMB:
+    paises: ciudad_GMB
+    nombre: Gambia
+    continente: Africa
+    region: 'Western Africa'
+    nombrelocal: 'The Gambia'
+    capital: '904'
+    codigo2: GM
+  pais_GNB:
+    paises: ciudad_GNB
+    nombre: Guinea-Bissau
+    continente: Africa
+    region: 'Western Africa'
+    nombrelocal: Guiné-Bissau
+    capital: '927'
+    codigo2: GW
+  pais_GNQ:
+    paises: ciudad_GNQ
+    nombre: 'Equatorial Guinea'
+    continente: Africa
+    region: 'Central Africa'
+    nombrelocal: 'Guinea Ecuatorial'
+    capital: '2972'
+    codigo2: GQ
+  pais_GRC:
+    paises: ciudad_GRC
+    nombre: Greece
+    continente: Europe
+    region: 'Southern Europe'
+    nombrelocal: Elláda
+    capital: '2401'
+    codigo2: GR
+  pais_GRD:
+    paises: ciudad_GRD
+    nombre: Grenada
+    continente: 'North America'
+    region: Caribbean
+    nombrelocal: Grenada
+    capital: '916'
+    codigo2: GD
+  pais_GRL:
+    paises: ciudad_GRL
+    nombre: Greenland
+    continente: 'North America'
+    region: 'North America'
+    nombrelocal: 'Kalaallit Nunaat/Grønland'
+    capital: '917'
+    codigo2: GL
+  pais_GTM:
+    paises: ciudad_GTM
+    nombre: Guatemala
+    continente: 'North America'
+    region: 'Central America'
+    nombrelocal: Guatemala
+    capital: '922'
+    codigo2: GT
+  pais_GUF:
+    paises: ciudad_GUF
+    nombre: 'French Guiana'
+    continente: 'South America'
+    region: 'South America'
+    nombrelocal: 'Guyane française'
+    capital: '3014'
+    codigo2: GF
+  pais_GUM:
+    paises: ciudad_GUM
+    nombre: Guam
+    continente: Oceania
+    region: Micronesia
+    nombrelocal: Guam
+    capital: '921'
+    codigo2: GU
+  pais_GUY:
+    paises: ciudad_GUY
+    nombre: Guyana
+    continente: 'South America'
+    region: 'South America'
+    nombrelocal: Guyana
+    capital: '928'
+    codigo2: GY
+  pais_HKG:
+    paises: ciudad_HKG
+    nombre: 'Hong Kong'
+    continente: Asia
+    region: 'Eastern Asia'
+    nombrelocal: 'Xianggang/Hong Kong'
+    capital: '937'
+    codigo2: HK
+  pais_HMD:
+    nombre: 'Heard Island and McDonald Islands'
+    continente: Antarctica
+    region: Antarctica
+    nombrelocal: 'Heard and McDonald Islands'
+    capital: null
+    codigo2: HM
+  pais_HND:
+    paises: ciudad_HND
+    nombre: Honduras
+    continente: 'North America'
+    region: 'Central America'
+    nombrelocal: Honduras
+    capital: '933'
+    codigo2: HN
+  pais_HRV:
+    paises: ciudad_HRV
+    nombre: Croatia
+    continente: Europe
+    region: 'Southern Europe'
+    nombrelocal: Hrvatska
+    capital: '2409'
+    codigo2: HR
+  pais_HTI:
+    paises: ciudad_HTI
+    nombre: Haiti
+    continente: 'North America'
+    region: Caribbean
+    nombrelocal: Haïti/Dayti
+    capital: '929'
+    codigo2: HT
+  pais_HUN:
+    paises: ciudad_HUN
+    nombre: Hungary
+    continente: Europe
+    region: 'Eastern Europe'
+    nombrelocal: Magyarország
+    capital: '3483'
+    codigo2: HU
+  pais_IDN:
+    paises: ciudad_IDN
+    nombre: Indonesia
+    continente: Asia
+    region: 'Southeast Asia'
+    nombrelocal: Indonesia
+    capital: '939'
+    codigo2: ID
+  pais_IND:
+    paises: ciudad_IND
+    nombre: India
+    continente: Asia
+    region: 'Southern and Central Asia'
+    nombrelocal: Bharat/India
+    capital: '1109'
+    codigo2: IN
+  pais_IOT:
+    nombre: 'British Indian Ocean Territory'
+    continente: Africa
+    region: 'Eastern Africa'
+    nombrelocal: 'British Indian Ocean Territory'
+    capital: null
+    codigo2: IO
+  pais_IRL:
+    paises: ciudad_IRL
+    nombre: Ireland
+    continente: Europe
+    region: 'British Islands'
+    nombrelocal: Ireland/Éire
+    capital: '1447'
+    codigo2: IE
+  pais_IRN:
+    paises: ciudad_IRN
+    nombre: Iran
+    continente: Asia
+    region: 'Southern and Central Asia'
+    nombrelocal: Iran
+    capital: '1380'
+    codigo2: IR
+  pais_IRQ:
+    paises: ciudad_IRQ
+    nombre: Iraq
+    continente: Asia
+    region: 'Middle East'
+    nombrelocal: Al-´Iraq
+    capital: '1365'
+    codigo2: IQ
+  pais_ISL:
+    paises: ciudad_ISL
+    nombre: Iceland
+    continente: Europe
+    region: 'Nordic Countries'
+    nombrelocal: Ísland
+    capital: '1449'
+    codigo2: IS
+  pais_ISR:
+    paises: ciudad_ISR
+    nombre: Israel
+    continente: Asia
+    region: 'Middle East'
+    nombrelocal: Yisra’el/Isra’il
+    capital: '1450'
+    codigo2: IL
+  pais_ITA:
+    paises: ciudad_ITA
+    nombre: Italy
+    continente: Europe
+    region: 'Southern Europe'
+    nombrelocal: Italia
+    capital: '1464'
+    codigo2: IT
+  pais_JAM:
+    paises: ciudad_JAM
+    nombre: Jamaica
+    continente: 'North America'
+    region: Caribbean
+    nombrelocal: Jamaica
+    capital: '1530'
+    codigo2: JM
+  pais_JOR:
+    paises: ciudad_JOR
+    nombre: Jordan
+    continente: Asia
+    region: 'Middle East'
+    nombrelocal: Al-Urdunn
+    capital: '1786'
+    codigo2: JO
+  pais_JPN:
+    paises: ciudad_JPN
+    nombre: Japan
+    continente: Asia
+    region: 'Eastern Asia'
+    nombrelocal: Nihon/Nippon
+    capital: '1532'
+    codigo2: JP
+  pais_KAZ:
+    paises: ciudad_KAZ
+    nombre: Kazakstan
+    continente: Asia
+    region: 'Southern and Central Asia'
+    nombrelocal: Qazaqstan
+    capital: '1864'
+    codigo2: KZ
+  pais_KEN:
+    paises: ciudad_KEN
+    nombre: Kenya
+    continente: Africa
+    region: 'Eastern Africa'
+    nombrelocal: Kenya
+    capital: '1881'
+    codigo2: KE
+  pais_KGZ:
+    paises: ciudad_KGZ
+    nombre: Kyrgyzstan
+    continente: Asia
+    region: 'Southern and Central Asia'
+    nombrelocal: Kyrgyzstan
+    capital: '2253'
+    codigo2: KG
+  pais_KHM:
+    paises: ciudad_KHM
+    nombre: Cambodia
+    continente: Asia
+    region: 'Southeast Asia'
+    nombrelocal: Kâmpuchéa
+    capital: '1800'
+    codigo2: KH
+  pais_KIR:
+    paises: ciudad_KIR
+    nombre: Kiribati
+    continente: Oceania
+    region: Micronesia
+    nombrelocal: Kiribati
+    capital: '2256'
+    codigo2: KI
+  pais_KNA:
+    paises: ciudad_KNA
+    nombre: 'Saint Kitts and Nevis'
+    continente: 'North America'
+    region: Caribbean
+    nombrelocal: 'Saint Kitts and Nevis'
+    capital: '3064'
+    codigo2: KN
+  pais_KOR:
+    paises: ciudad_KOR
+    nombre: 'South Korea'
+    continente: Asia
+    region: 'Eastern Asia'
+    nombrelocal: 'Taehan Min’guk (Namhan)'
+    capital: '2331'
+    codigo2: KR
+  pais_KWT:
+    paises: ciudad_KWT
+    nombre: Kuwait
+    continente: Asia
+    region: 'Middle East'
+    nombrelocal: Al-Kuwayt
+    capital: '2429'
+    codigo2: KW
+  pais_LAO:
+    paises: ciudad_LAO
+    nombre: Laos
+    continente: Asia
+    region: 'Southeast Asia'
+    nombrelocal: Lao
+    capital: '2432'
+    codigo2: LA
+  pais_LBN:
+    paises: ciudad_LBN
+    nombre: Lebanon
+    continente: Asia
+    region: 'Middle East'
+    nombrelocal: Lubnan
+    capital: '2438'
+    codigo2: LB
+  pais_LBR:
+    paises: ciudad_LBR
+    nombre: Liberia
+    continente: Africa
+    region: 'Western Africa'
+    nombrelocal: Liberia
+    capital: '2440'
+    codigo2: LR
+  pais_LBY:
+    paises: ciudad_LBY
+    nombre: 'Libyan Arab Jamahiriya'
+    continente: Africa
+    region: 'Northern Africa'
+    nombrelocal: Libiya
+    capital: '2441'
+    codigo2: LY
+  pais_LCA:
+    paises: ciudad_LCA
+    nombre: 'Saint Lucia'
+    continente: 'North America'
+    region: Caribbean
+    nombrelocal: 'Saint Lucia'
+    capital: '3065'
+    codigo2: LC
+  pais_LIE:
+    paises: ciudad_LIE
+    nombre: Liechtenstein
+    continente: Europe
+    region: 'Western Europe'
+    nombrelocal: Liechtenstein
+    capital: '2446'
+    codigo2: LI
+  pais_LKA:
+    paises: ciudad_LKA
+    nombre: 'Sri Lanka'
+    continente: Asia
+    region: 'Southern and Central Asia'
+    nombrelocal: 'Sri Lanka/Ilankai'
+    capital: '3217'
+    codigo2: LK
+  pais_LSO:
+    paises: ciudad_LSO
+    nombre: Lesotho
+    continente: Africa
+    region: 'Southern Africa'
+    nombrelocal: Lesotho
+    capital: '2437'
+    codigo2: LS
+  pais_LTU:
+    paises: ciudad_LTU
+    nombre: Lithuania
+    continente: Europe
+    region: 'Baltic Countries'
+    nombrelocal: Lietuva
+    capital: '2447'
+    codigo2: LT
+  pais_LUX:
+    paises: ciudad_LUX
+    nombre: Luxembourg
+    continente: Europe
+    region: 'Western Europe'
+    nombrelocal: Luxembourg/Lëtzebuerg
+    capital: '2452'
+    codigo2: LU
+  pais_LVA:
+    paises: ciudad_LVA
+    nombre: Latvia
+    continente: Europe
+    region: 'Baltic Countries'
+    nombrelocal: Latvija
+    capital: '2434'
+    codigo2: LV
+  pais_MAC:
+    paises: ciudad_MAC
+    nombre: Macao
+    continente: Asia
+    region: 'Eastern Asia'
+    nombrelocal: Macau/Aomen
+    capital: '2454'
+    codigo2: MO
+  pais_MAR:
+    paises: ciudad_MAR
+    nombre: Morocco
+    continente: Africa
+    region: 'Northern Africa'
+    nombrelocal: Al-Maghrib
+    capital: '2486'
+    codigo2: MA
+  pais_MCO:
+    paises: ciudad_MCO
+    nombre: Monaco
+    continente: Europe
+    region: 'Western Europe'
+    nombrelocal: Monaco
+    capital: '2695'
+    codigo2: MC
+  pais_MDA:
+    paises: ciudad_MDA
+    nombre: Moldova
+    continente: Europe
+    region: 'Eastern Europe'
+    nombrelocal: Moldova
+    capital: '2690'
+    codigo2: MD
+  pais_MDG:
+    paises: ciudad_MDG
+    nombre: Madagascar
+    continente: Africa
+    region: 'Eastern Africa'
+    nombrelocal: Madagasikara/Madagascar
+    capital: '2455'
+    codigo2: MG
+  pais_MDV:
+    paises: ciudad_MDV
+    nombre: Maldives
+    continente: Asia
+    region: 'Southern and Central Asia'
+    nombrelocal: 'Dhivehi Raajje/Maldives'
+    capital: '2463'
+    codigo2: MV
+  pais_MEX:
+    paises: ciudad_MEX
+    nombre: Mexico
+    continente: 'North America'
+    region: 'Central America'
+    nombrelocal: México
+    capital: '2515'
+    codigo2: MX
+  pais_MHL:
+    paises: ciudad_MHL
+    nombre: 'Marshall Islands'
+    continente: Oceania
+    region: Micronesia
+    nombrelocal: 'Marshall Islands/Majol'
+    capital: '2507'
+    codigo2: MH
+  pais_MKD:
+    paises: ciudad_MKD
+    nombre: Macedonia
+    continente: Europe
+    region: 'Southern Europe'
+    nombrelocal: Makedonija
+    capital: '2460'
+    codigo2: MK
+  pais_MLI:
+    paises: ciudad_MLI
+    nombre: Mali
+    continente: Africa
+    region: 'Western Africa'
+    nombrelocal: Mali
+    capital: '2482'
+    codigo2: ML
+  pais_MLT:
+    paises: ciudad_MLT
+    nombre: Malta
+    continente: Europe
+    region: 'Southern Europe'
+    nombrelocal: Malta
+    capital: '2484'
+    codigo2: MT
+  pais_MMR:
+    paises: ciudad_MMR
+    nombre: Myanmar
+    continente: Asia
+    region: 'Southeast Asia'
+    nombrelocal: 'Myanma Pye'
+    capital: '2710'
+    codigo2: MM
+  pais_MNG:
+    paises: ciudad_MNG
+    nombre: Mongolia
+    continente: Asia
+    region: 'Eastern Asia'
+    nombrelocal: 'Mongol Uls'
+    capital: '2696'
+    codigo2: MN
+  pais_MNP:
+    paises: ciudad_MNP
+    nombre: 'Northern Mariana Islands'
+    continente: Oceania
+    region: Micronesia
+    nombrelocal: 'Northern Mariana Islands'
+    capital: '2913'
+    codigo2: MP
+  pais_MOZ:
+    paises: ciudad_MOZ
+    nombre: Mozambique
+    continente: Africa
+    region: 'Eastern Africa'
+    nombrelocal: Moçambique
+    capital: '2698'
+    codigo2: MZ
+  pais_MRT:
+    paises: ciudad_MRT
+    nombre: Mauritania
+    continente: Africa
+    region: 'Western Africa'
+    nombrelocal: Muritaniya/Mauritanie
+    capital: '2509'
+    codigo2: MR
+  pais_MSR:
+    paises: ciudad_MSR
+    nombre: Montserrat
+    continente: 'North America'
+    region: Caribbean
+    nombrelocal: Montserrat
+    capital: '2697'
+    codigo2: MS
+  pais_MTQ:
+    paises: ciudad_MTQ
+    nombre: Martinique
+    continente: 'North America'
+    region: Caribbean
+    nombrelocal: Martinique
+    capital: '2508'
+    codigo2: MQ
+  pais_MUS:
+    paises: ciudad_MUS
+    nombre: Mauritius
+    continente: Africa
+    region: 'Eastern Africa'
+    nombrelocal: Mauritius
+    capital: '2511'
+    codigo2: MU
+  pais_MWI:
+    paises: ciudad_MWI
+    nombre: Malawi
+    continente: Africa
+    region: 'Eastern Africa'
+    nombrelocal: Malawi
+    capital: '2462'
+    codigo2: MW
+  pais_MYS:
+    paises: ciudad_MYS
+    nombre: Malaysia
+    continente: Asia
+    region: 'Southeast Asia'
+    nombrelocal: Malaysia
+    capital: '2464'
+    codigo2: MY
+  pais_MYT:
+    paises: ciudad_MYT
+    nombre: Mayotte
+    continente: Africa
+    region: 'Eastern Africa'
+    nombrelocal: Mayotte
+    capital: '2514'
+    codigo2: YT
+  pais_NAM:
+    paises: ciudad_NAM
+    nombre: Namibia
+    continente: Africa
+    region: 'Southern Africa'
+    nombrelocal: Namibia
+    capital: '2726'
+    codigo2: NA
+  pais_NCL:
+    paises: ciudad_NCL
+    nombre: 'New Caledonia'
+    continente: Oceania
+    region: Melanesia
+    nombrelocal: Nouvelle-Calédonie
+    capital: '3493'
+    codigo2: NC
+  pais_NER:
+    paises: ciudad_NER
+    nombre: Niger
+    continente: Africa
+    region: 'Western Africa'
+    nombrelocal: Niger
+    capital: '2738'
+    codigo2: NE
+  pais_NFK:
+    paises: ciudad_NFK
+    nombre: 'Norfolk Island'
+    continente: Oceania
+    region: 'Australia and New Zealand'
+    nombrelocal: 'Norfolk Island'
+    capital: '2806'
+    codigo2: NF
+  pais_NGA:
+    paises: ciudad_NGA
+    nombre: Nigeria
+    continente: Africa
+    region: 'Western Africa'
+    nombrelocal: Nigeria
+    capital: '2754'
+    codigo2: NG
+  pais_NIC:
+    paises: ciudad_NIC
+    nombre: Nicaragua
+    continente: 'North America'
+    region: 'Central America'
+    nombrelocal: Nicaragua
+    capital: '2734'
+    codigo2: NI
+  pais_NIU:
+    paises: ciudad_NIU
+    nombre: Niue
+    continente: Oceania
+    region: Polynesia
+    nombrelocal: Niue
+    capital: '2805'
+    codigo2: NU
+  pais_NLD:
+    paises: ciudad_NLD
+    nombre: Netherlands
+    continente: Europe
+    region: 'Western Europe'
+    nombrelocal: Nederland
+    capital: '5'
+    codigo2: NL
+  pais_NOR:
+    paises: ciudad_NOR
+    nombre: Norway
+    continente: Europe
+    region: 'Nordic Countries'
+    nombrelocal: Norge
+    capital: '2807'
+    codigo2: NO
+  pais_NPL:
+    paises: ciudad_NPL
+    nombre: Nepal
+    continente: Asia
+    region: 'Southern and Central Asia'
+    nombrelocal: Nepal
+    capital: '2729'
+    codigo2: NP
+  pais_NRU:
+    paises: ciudad_NRU
+    nombre: Nauru
+    continente: Oceania
+    region: Micronesia
+    nombrelocal: Naoero/Nauru
+    capital: '2728'
+    codigo2: NR
+  pais_NZL:
+    paises: ciudad_NZL
+    nombre: 'New Zealand'
+    continente: Oceania
+    region: 'Australia and New Zealand'
+    nombrelocal: 'New Zealand/Aotearoa'
+    capital: '3499'
+    codigo2: NZ
+  pais_OMN:
+    paises: ciudad_OMN
+    nombre: Oman
+    continente: Asia
+    region: 'Middle East'
+    nombrelocal: ´Uman
+    capital: '2821'
+    codigo2: OM
+  pais_PAK:
+    paises: ciudad_PAK
+    nombre: Pakistan
+    continente: Asia
+    region: 'Southern and Central Asia'
+    nombrelocal: Pakistan
+    capital: '2831'
+    codigo2: PK
+  pais_PAN:
+    paises: ciudad_PAN
+    nombre: Panama
+    continente: 'North America'
+    region: 'Central America'
+    nombrelocal: Panamá
+    capital: '2882'
+    codigo2: PA
+  pais_PCN:
+    paises: ciudad_PCN
+    nombre: Pitcairn
+    continente: Oceania
+    region: Polynesia
+    nombrelocal: Pitcairn
+    capital: '2912'
+    codigo2: PN
+  pais_PER:
+    paises: ciudad_PER
+    nombre: Peru
+    continente: 'South America'
+    region: 'South America'
+    nombrelocal: Perú/Piruw
+    capital: '2890'
+    codigo2: PE
+  pais_PHL:
+    paises: ciudad_PHL
+    nombre: Philippines
+    continente: Asia
+    region: 'Southeast Asia'
+    nombrelocal: Pilipinas
+    capital: '766'
+    codigo2: PH
+  pais_PLW:
+    paises: ciudad_PLW
+    nombre: Palau
+    continente: Oceania
+    region: Micronesia
+    nombrelocal: Belau/Palau
+    capital: '2881'
+    codigo2: PW
+  pais_PNG:
+    paises: ciudad_PNG
+    nombre: 'Papua New Guinea'
+    continente: Oceania
+    region: Melanesia
+    nombrelocal: 'Papua New Guinea/Papua Niugini'
+    capital: '2884'
+    codigo2: PG
+  pais_POL:
+    paises: ciudad_POL
+    nombre: Poland
+    continente: Europe
+    region: 'Eastern Europe'
+    nombrelocal: Polska
+    capital: '2928'
+    codigo2: PL
+  pais_PRI:
+    paises: ciudad_PRI
+    nombre: 'Puerto Rico'
+    continente: 'North America'
+    region: Caribbean
+    nombrelocal: 'Puerto Rico'
+    capital: '2919'
+    codigo2: PR
+  pais_PRK:
+    paises: ciudad_PRK
+    nombre: 'North Korea'
+    continente: Asia
+    region: 'Eastern Asia'
+    nombrelocal: 'Choson Minjujuui In´min Konghwaguk (Bukhan)'
+    capital: '2318'
+    codigo2: KP
+  pais_PRT:
+    paises: ciudad_PRT
+    nombre: Portugal
+    continente: Europe
+    region: 'Southern Europe'
+    nombrelocal: Portugal
+    capital: '2914'
+    codigo2: PT
+  pais_PRY:
+    paises: ciudad_PRY
+    nombre: Paraguay
+    continente: 'South America'
+    region: 'South America'
+    nombrelocal: Paraguay
+    capital: '2885'
+    codigo2: PY
+  pais_PSE:
+    paises: ciudad_PSE
+    nombre: Palestine
+    continente: Asia
+    region: 'Middle East'
+    nombrelocal: Filastin
+    capital: '4074'
+    codigo2: PS
+  pais_PYF:
+    paises: ciudad_PYF
+    nombre: 'French Polynesia'
+    continente: Oceania
+    region: Polynesia
+    nombrelocal: 'Polynésie française'
+    capital: '3016'
+    codigo2: PF
+  pais_QAT:
+    paises: ciudad_QAT
+    nombre: Qatar
+    continente: Asia
+    region: 'Middle East'
+    nombrelocal: Qatar
+    capital: '2973'
+    codigo2: QA
+  pais_REU:
+    paises: ciudad_REU
+    nombre: Réunion
+    continente: Africa
+    region: 'Eastern Africa'
+    nombrelocal: Réunion
+    capital: '3017'
+    codigo2: RE
+  pais_ROM:
+    paises: ciudad_ROM
+    nombre: Romania
+    continente: Europe
+    region: 'Eastern Europe'
+    nombrelocal: România
+    capital: '3018'
+    codigo2: RO
+  pais_RUS:
+    paises: ciudad_RUS
+    nombre: 'Russian Federation'
+    continente: Europe
+    region: 'Eastern Europe'
+    nombrelocal: Rossija
+    capital: '3580'
+    codigo2: RU
+  pais_RWA:
+    paises: ciudad_RWA
+    nombre: Rwanda
+    continente: Africa
+    region: 'Eastern Africa'
+    nombrelocal: Rwanda/Urwanda
+    capital: '3047'
+    codigo2: RW
+  pais_SAU:
+    paises: ciudad_SAU
+    nombre: 'Saudi Arabia'
+    continente: Asia
+    region: 'Middle East'
+    nombrelocal: 'Al-´Arabiya as-Sa´udiya'
+    capital: '3173'
+    codigo2: SA
+  pais_SDN:
+    paises: ciudad_SDN
+    nombre: Sudan
+    continente: Africa
+    region: 'Northern Africa'
+    nombrelocal: As-Sudan
+    capital: '3225'
+    codigo2: SD
+  pais_SEN:
+    paises: ciudad_SEN
+    nombre: Senegal
+    continente: Africa
+    region: 'Western Africa'
+    nombrelocal: Sénégal/Sounougal
+    capital: '3198'
+    codigo2: SN
+  pais_SGP:
+    paises: ciudad_SGP
+    nombre: Singapore
+    continente: Asia
+    region: 'Southeast Asia'
+    nombrelocal: Singapore/Singapura/Xinjiapo/Singapur
+    capital: '3208'
+    codigo2: SG
+  pais_SGS:
+    nombre: 'South Georgia and the South Sandwich Islands'
+    continente: Antarctica
+    region: Antarctica
+    nombrelocal: 'South Georgia and the South Sandwich Islands'
+    capital: null
+    codigo2: GS
+  pais_SHN:
+    paises: ciudad_SHN
+    nombre: 'Saint Helena'
+    continente: Africa
+    region: 'Western Africa'
+    nombrelocal: 'Saint Helena'
+    capital: '3063'
+    codigo2: SH
+  pais_SJM:
+    paises: ciudad_SJM
+    nombre: 'Svalbard and Jan Mayen'
+    continente: Europe
+    region: 'Nordic Countries'
+    nombrelocal: 'Svalbard og Jan Mayen'
+    capital: '938'
+    codigo2: SJ
+  pais_SLB:
+    paises: ciudad_SLB
+    nombre: 'Solomon Islands'
+    continente: Oceania
+    region: Melanesia
+    nombrelocal: 'Solomon Islands'
+    capital: '3161'
+    codigo2: SB
+  pais_SLE:
+    paises: ciudad_SLE
+    nombre: 'Sierra Leone'
+    continente: Africa
+    region: 'Western Africa'
+    nombrelocal: 'Sierra Leone'
+    capital: '3207'
+    codigo2: SL
+  pais_SLV:
+    paises: ciudad_SLV
+    nombre: 'El Salvador'
+    continente: 'North America'
+    region: 'Central America'
+    nombrelocal: 'El Salvador'
+    capital: '645'
+    codigo2: SV
+  pais_SMR:
+    paises: ciudad_SMR
+    nombre: 'San Marino'
+    continente: Europe
+    region: 'Southern Europe'
+    nombrelocal: 'San Marino'
+    capital: '3171'
+    codigo2: SM
+  pais_SOM:
+    paises: ciudad_SOM
+    nombre: Somalia
+    continente: Africa
+    region: 'Eastern Africa'
+    nombrelocal: Soomaaliya
+    capital: '3214'
+    codigo2: SO
+  pais_SPM:
+    paises: ciudad_SPM
+    nombre: 'Saint Pierre and Miquelon'
+    continente: 'North America'
+    region: 'North America'
+    nombrelocal: Saint-Pierre-et-Miquelon
+    capital: '3067'
+    codigo2: PM
+  pais_STP:
+    paises: ciudad_STP
+    nombre: 'Sao Tome and Principe'
+    continente: Africa
+    region: 'Central Africa'
+    nombrelocal: 'São Tomé e Príncipe'
+    capital: '3172'
+    codigo2: ST
+  pais_SUR:
+    paises: ciudad_SUR
+    nombre: Suriname
+    continente: 'South America'
+    region: 'South America'
+    nombrelocal: Suriname
+    capital: '3243'
+    codigo2: SR
+  pais_SVK:
+    paises: ciudad_SVK
+    nombre: Slovakia
+    continente: Europe
+    region: 'Eastern Europe'
+    nombrelocal: Slovensko
+    capital: '3209'
+    codigo2: SK
+  pais_SVN:
+    paises: ciudad_SVN
+    nombre: Slovenia
+    continente: Europe
+    region: 'Southern Europe'
+    nombrelocal: Slovenija
+    capital: '3212'
+    codigo2: SI
+  pais_SWE:
+    paises: ciudad_SWE
+    nombre: Sweden
+    continente: Europe
+    region: 'Nordic Countries'
+    nombrelocal: Sverige
+    capital: '3048'
+    codigo2: SE
+  pais_SWZ:
+    paises: ciudad_SWZ
+    nombre: Swaziland
+    continente: Africa
+    region: 'Southern Africa'
+    nombrelocal: kaNgwane
+    capital: '3244'
+    codigo2: SZ
+  pais_SYC:
+    paises: ciudad_SYC
+    nombre: Seychelles
+    continente: Africa
+    region: 'Eastern Africa'
+    nombrelocal: Sesel/Seychelles
+    capital: '3206'
+    codigo2: SC
+  pais_SYR:
+    paises: ciudad_SYR
+    nombre: Syria
+    continente: Asia
+    region: 'Middle East'
+    nombrelocal: Suriya
+    capital: '3250'
+    codigo2: SY
+  pais_TCA:
+    paises: ciudad_TCA
+    nombre: 'Turks and Caicos Islands'
+    continente: 'North America'
+    region: Caribbean
+    nombrelocal: 'The Turks and Caicos Islands'
+    capital: '3423'
+    codigo2: TC
+  pais_TCD:
+    paises: ciudad_TCD
+    nombre: Chad
+    continente: Africa
+    region: 'Central Africa'
+    nombrelocal: Tchad/Tshad
+    capital: '3337'
+    codigo2: TD
+  pais_TGO:
+    paises: ciudad_TGO
+    nombre: Togo
+    continente: Africa
+    region: 'Western Africa'
+    nombrelocal: Togo
+    capital: '3332'
+    codigo2: TG
+  pais_THA:
+    paises: ciudad_THA
+    nombre: Thailand
+    continente: Asia
+    region: 'Southeast Asia'
+    nombrelocal: 'Prathet Thai'
+    capital: '3320'
+    codigo2: TH
+  pais_TJK:
+    paises: ciudad_TJK
+    nombre: Tajikistan
+    continente: Asia
+    region: 'Southern and Central Asia'
+    nombrelocal: Toçikiston
+    capital: '3261'
+    codigo2: TJ
+  pais_TKL:
+    paises: ciudad_TKL
+    nombre: Tokelau
+    continente: Oceania
+    region: Polynesia
+    nombrelocal: Tokelau
+    capital: '3333'
+    codigo2: TK
+  pais_TKM:
+    paises: ciudad_TKM
+    nombre: Turkmenistan
+    continente: Asia
+    region: 'Southern and Central Asia'
+    nombrelocal: Türkmenostan
+    capital: '3419'
+    codigo2: TM
+  pais_TMP:
+    paises: ciudad_TMP
+    nombre: 'East Timor'
+    continente: Asia
+    region: 'Southeast Asia'
+    nombrelocal: 'Timor Timur'
+    capital: '1522'
+    codigo2: TP
+  pais_TON:
+    paises: ciudad_TON
+    nombre: Tonga
+    continente: Oceania
+    region: Polynesia
+    nombrelocal: Tonga
+    capital: '3334'
+    codigo2: TO
+  pais_TTO:
+    paises: ciudad_TTO
+    nombre: 'Trinidad and Tobago'
+    continente: 'North America'
+    region: Caribbean
+    nombrelocal: 'Trinidad and Tobago'
+    capital: '3336'
+    codigo2: TT
+  pais_TUN:
+    paises: ciudad_TUN
+    nombre: Tunisia
+    continente: Africa
+    region: 'Northern Africa'
+    nombrelocal: Tunis/Tunisie
+    capital: '3349'
+    codigo2: TN
+  pais_TUR:
+    paises: ciudad_TUR
+    nombre: Turkey
+    continente: Asia
+    region: 'Middle East'
+    nombrelocal: Türkiye
+    capital: '3358'
+    codigo2: TR
+  pais_TUV:
+    paises: ciudad_TUV
+    nombre: Tuvalu
+    continente: Oceania
+    region: Polynesia
+    nombrelocal: Tuvalu
+    capital: '3424'
+    codigo2: TV
+  pais_TWN:
+    paises: ciudad_TWN
+    nombre: Taiwan
+    continente: Asia
+    region: 'Eastern Asia'
+    nombrelocal: T’ai-wan
+    capital: '3263'
+    codigo2: TW
+  pais_TZA:
+    paises: ciudad_TZA
+    nombre: Tanzania
+    continente: Africa
+    region: 'Eastern Africa'
+    nombrelocal: Tanzania
+    capital: '3306'
+    codigo2: TZ
+  pais_UGA:
+    paises: ciudad_UGA
+    nombre: Uganda
+    continente: Africa
+    region: 'Eastern Africa'
+    nombrelocal: Uganda
+    capital: '3425'
+    codigo2: UG
+  pais_UKR:
+    paises: ciudad_UKR
+    nombre: Ukraine
+    continente: Europe
+    region: 'Eastern Europe'
+    nombrelocal: Ukrajina
+    capital: '3426'
+    codigo2: UA
+  pais_UMI:
+    nombre: 'United States Minor Outlying Islands'
+    continente: Oceania
+    region: Micronesia/Caribbean
+    nombrelocal: 'United States Minor Outlying Islands'
+    capital: null
+    codigo2: UM
+  pais_URY:
+    paises: ciudad_URY
+    nombre: Uruguay
+    continente: 'South America'
+    region: 'South America'
+    nombrelocal: Uruguay
+    capital: '3492'
+    codigo2: UY
+  pais_USA:
+    paises: ciudad_USA
+    nombre: 'United States'
+    continente: 'North America'
+    region: 'North America'
+    nombrelocal: 'United States'
+    capital: '3813'
+    codigo2: US
+  pais_UZB:
+    paises: ciudad_UZB
+    nombre: Uzbekistan
+    continente: Asia
+    region: 'Southern and Central Asia'
+    nombrelocal: Uzbekiston
+    capital: '3503'
+    codigo2: UZ
+  pais_VAT:
+    paises: ciudad_VAT
+    nombre: 'Holy See (Vatican ciudades State)'
+    continente: Europe
+    region: 'Southern Europe'
+    nombrelocal: 'Santa Sede/Città del Vaticano'
+    capital: '3538'
+    codigo2: VA
+  pais_VCT:
+    paises: ciudad_VCT
+    nombre: 'Saint Vincent and the Grenadines'
+    continente: 'North America'
+    region: Caribbean
+    nombrelocal: 'Saint Vincent and the Grenadines'
+    capital: '3066'
+    codigo2: VC
+  pais_VEN:
+    paises: ciudad_VEN
+    nombre: Venezuela
+    continente: 'South America'
+    region: 'South America'
+    nombrelocal: Venezuela
+    capital: '3539'
+    codigo2: VE
+  pais_VGB:
+    paises: ciudad_VGB
+    nombre: 'Virgin Islands, British'
+    continente: 'North America'
+    region: Caribbean
+    nombrelocal: 'British Virgin Islands'
+    capital: '537'
+    codigo2: VG
+  pais_VIR:
+    paises: ciudad_VIR
+    nombre: 'Virgin Islands, U.S.'
+    continente: 'North America'
+    region: Caribbean
+    nombrelocal: 'Virgin Islands of the United States'
+    capital: '4067'
+    codigo2: VI
+  pais_VNM:
+    paises: ciudad_VNM
+    nombre: Vietnam
+    continente: Asia
+    region: 'Southeast Asia'
+    nombrelocal: 'Viêt Nam'
+    capital: '3770'
+    codigo2: VN
+  pais_VUT:
+    paises: ciudad_VUT
+    nombre: Vanuatu
+    continente: Oceania
+    region: Melanesia
+    nombrelocal: Vanuatu
+    capital: '3537'
+    codigo2: VU
+  pais_WLF:
+    paises: ciudad_WLF
+    nombre: 'Wallis and Futuna'
+    continente: Oceania
+    region: Polynesia
+    nombrelocal: Wallis-et-Futuna
+    capital: '3536'
+    codigo2: WF
+  pais_WSM:
+    paises: ciudad_WSM
+    nombre: Samoa
+    continente: Oceania
+    region: Polynesia
+    nombrelocal: Samoa
+    capital: '3169'
+    codigo2: WS
+  pais_YEM:
+    paises: ciudad_YEM
+    nombre: Yemen
+    continente: Asia
+    region: 'Middle East'
+    nombrelocal: Al-Yaman
+    capital: '1780'
+    codigo2: YE
+  pais_YUG:
+    paises: ciudad_YUG
+    nombre: Yugoslavia
+    continente: Europe
+    region: 'Southern Europe'
+    nombrelocal: Jugoslavija
+    capital: '1792'
+    codigo2: YU
+  pais_ZAF:
+    paises: ciudad_ZAF
+    nombre: 'South Africa'
+    continente: Africa
+    region: 'Southern Africa'
+    nombrelocal: 'South Africa'
+    capital: '716'
+    codigo2: ZA
+  pais_ZMB:
+    paises: ciudad_ZMB
+    nombre: Zambia
+    continente: Africa
+    region: 'Eastern Africa'
+    nombrelocal: Zambia
+    capital: '3162'
+    codigo2: ZM
+  pais_ZWE:
+    paises: ciudad_ZWE
+    nombre: Zimbabwe
+    continente: Africa
+    region: 'Eastern Africa'
+    nombrelocal: Zimbabwe
+    capital: '4068'
+    codigo2: ZW

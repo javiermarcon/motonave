@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE xliff PUBLIC "-//XLIFF//DTD XLIFF//EN" "http://www.oasis-open.org/committees/xliff/documents/xliff.dtd">
+<xliff version="1.0">
+  <file source-language="EN" target-language="es" datatype="plaintext" original="messages" date="2011-12-01T14:16:26Z" product-name="messages">
+    <header/>
+    <body>
+      <trans-unit id="1">
+        <source>Manejo de Categorias</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="2">
+        <source>Editar la categoria "%%nombre%%"</source>
+        <target/>
+      </trans-unit>
+      <trans-unit id="3">
+        <source>Nueva Categoria</source>
+        <target/>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

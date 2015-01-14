@@ -1,0 +1,324 @@
+---
+detect_relations: true
+options:
+  collate: latin1_swedish_ci
+  charset: latin1
+  type: InnoDB
+
+tiposactividad:
+  tableName: tiposactividades
+  columns:
+    id:
+      type: integer(20)
+      primary: true
+      unsigned: true
+      notnull: true
+    nombre:
+      type: string(100)
+      notnull: true
+
+transporte:
+  tableName: transportes
+  columns:
+    id:
+      type: integer(20)
+      primary: true
+      #unsigned: true
+      notnull: true
+      autoincrement: true
+    nombre:
+      type: string(100)
+      notnull: true
+      default: ''
+    direccion:
+      type: string(200)
+      notnull: true
+      default: ''
+    ciudades_id:
+      type: integer(20)
+      #unsigned: true
+      notnull: true
+    telefono:
+      type: string(100)
+      notnull: true
+    mail:
+      type: string(100)
+      notnull: true
+  relations:
+    ciudad:
+      class: ciudad
+      local: ciudades_id
+      foreign: id
+      foreignAlias: transportes
+  indexes:
+    fk_transportes_ciudades1:
+      fields: [ciudades_id]
+
+categoria:
+  actAs:
+    NestedSet:
+      hasManyRoots: true
+      rootColumnName: root_id
+  tableName: categorias
+  columns:
+    id:
+      type: integer(20)
+      primary: true
+      #unsigned: true
+      notnull: true
+      autoincrement: true
+    nombre:
+      type: string(100)
+
+producto:
+  tableName: productos
+  columns:
+    id:
+      type: integer(20)
+      primary: true
+      #unsigned: true
+      notnull: true
+      autoincrement: true
+    nombre:
+      type: string(150)
+      notnull: true
+    descripcion:
+      type: clob(65535)
+      notnull: false
+    codbarras_proveedor:
+      type: string(250)
+      notnull: true
+    stock:
+      type: integer
+      notnull: true
+      default: 0
+    stock_min:
+      type: integer
+      notnull: true
+      default: 0
+    stock_reposicion:
+      type: integer
+      notnull: true
+      default: 0
+    foto1:
+      type: string(255)
+      notnull: false
+    foto2:
+      type: string(255)
+      notnull: false
+    foto3:
+      type: string(255)
+      notnull: false
+    foto4:
+      type: string(255)
+      notnull: false
+    foto5:
+      type: string(255)
+      notnull: false
+    foto6:
+      type: string(255)
+      notnull: false
+    categorias_id:
+      type: integer(20)
+      #unsigned: true
+      notnull: true
+    precio:
+      type: float
+      #unsigned: true
+      notnull: true
+      default: 0
+  relations:
+    categoria:
+      class: categoria
+      local: categorias_id
+      foreign: id
+      foreignAlias: productos
+  indexes:
+    fk_productos_categorias1:
+      fields: [categorias_id]
+
+#usuario:
+#  tableName: usuarios
+#  columns:
+#    id:
+#      type: integer(20)
+#      primary: true
+#      unsigned: true
+#      notnull: true
+#    nombre:
+#      type: string(150)
+#      notnull: true
+#    password:
+#      type: string(150)
+#      notnull: true
+#    tipo:
+#      type: string(10)
+#      notnull: true
+#      default: 'cliente'
+
+pais:
+  tableName: paises
+  columns:
+    codigo:
+      type: string(3)
+      primary: true
+      notnull: true
+      default: ''
+      fixed: true
+    nombre:
+      type: string(52)
+      notnull: true
+      default: ''
+      fixed: true
+    continente:
+      type: string(15)
+      notnull: true
+      default: 'Asia'
+    region:
+      type: string(26)
+      notnull: true
+      default: ''
+      fixed: true
+    nombrelocal:
+      type: string(45)
+      notnull: true
+      default: ''
+      fixed: true
+    capital:
+      type: integer(20)
+      default: null
+    codigo2:
+      type: string(2)
+      notnull: true
+      default: ''
+      fixed: true
+#  relations:
+#    ciudad:
+#      class: ciudad
+#      local: capital
+#      foreign: id
+#      foreignAlias: capital
+#  indexes:
+#    capital:
+#      fields: [capital]
+
+ciudad:
+  tableName: ciudades
+  columns:
+    id:
+      type: integer(20)
+      primary: true
+      #unsigned: true
+      notnull: true
+      autoincrement: true
+    nombre:
+      type: string(35)
+      notnull: true
+      default: ''
+      fixed: true
+    paises_codigo:
+      type: string(3)
+      notnull: true
+      default: ''
+      fixed: true
+    provincia:
+      type: string(20)
+      notnull: true
+      default: ''
+      fixed: true
+  relations:
+    pais:
+      class: pais
+      local: paises_codigo
+      foreign: codigo
+      foreignAlias: paises
+  indexes:
+    paises_codigo:
+      fields: [paises_codigo]
+
+sf_guard_user_profile:
+  actAs:
+    Timestampable: ~
+  columns:
+    user_id:                      { type: integer(20), notnull: true}
+    first_name:                   { type: string(200)}
+    last_name:                    { type: string(200)}
+    token:                        { type: string(32) }
+    empresa:
+      type: string(100)
+      notnull: true
+      default: ''
+    cuit:
+      type: string(13)
+      notnull: true
+      default: ''
+    direccion:
+      type: string(255)
+      notnull: true
+      default: ''
+    ciudades_id:
+      type: integer(20)
+      #unsigned: true
+      notnull: true
+    telefono:
+      type: string(100)
+      notnull: true
+      default: ''
+    mail:
+      type: string(100)
+      notnull: true
+    web:
+      type: string(100)
+      notnull: false
+      default: ''
+    referencias_comerciales:
+      type: clob(65535)
+      notnull: false
+    transportes_id:
+      type: integer(20)
+      #unsigned: true
+      notnull: true
+    tiposactividades_id:
+      type: integer(20)
+      unsigned: true
+      notnull: true
+    referidos:
+      type: clob(65535)
+      notnull: false
+    usuarios_id:
+      type: integer(20)
+      #unsigned: true
+      notnull: true
+    created_at:   ~
+    updated_at:   ~
+  relations:
+    User:
+      class: sfGuardUser
+      local: user_id
+      foreign: id
+      foreignAlias: Profile
+      foreignType: one
+      type: one
+      onDelete: CASCADE
+    transporte:
+      class: transporte
+      local: transportes_id
+      foreign: id
+      foreignAlias: clientes
+    tiposactividad:
+      class: tiposactividad
+      local: tiposactividades_id
+      foreign: id
+      foreignAlias: clientes
+    ciudad:
+      class: ciudad
+      local: ciudades_id
+      foreign: id
+      foreignAlias: clientes
+  indexes:
+    fk_clientes_transportes:
+      fields: [transportes_id]
+    fk_clientes_tiposactividades1:
+      fields: [tiposactividades_id]
+    fk_clientes_ciudades1:
+      fields: [ciudades_id]

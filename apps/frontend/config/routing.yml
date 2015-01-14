@@ -1,0 +1,21 @@
+user_registro:
+  url:   /registrarse
+  #class: sfDoctrineRoute
+  param: { module: registro, action: index }
+  #options: {model: sf_guard_user_profile, type: object}
+
+listacategorias:
+  url: /categoria/:id
+  class: sfDoctrineRoute
+  param: { module: listacategorias, action: index}
+  options: {model: categoria, type: object}
+
+contacto:
+  url: /contacto
+  param: { module: contacto, action: index }
+
+# default
+homepage:
+  url:   /
+  param: { module: listaproducto, action: index }
+

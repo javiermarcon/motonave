@@ -1,0 +1,70 @@
+transporte:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                transporte
+    module:               transporte
+    prefix_path:          /transportes
+    column:               id
+    with_wildcard_routes: true
+
+cliente:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                cliente
+    module:               cliente
+    prefix_path:          /clientes
+    column:               id
+    with_wildcard_routes: true
+
+ciudad:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                ciudad
+    module:               ciudad
+    prefix_path:          /ciudades
+    column:               id
+    with_wildcard_routes: true
+
+pais:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                pais
+    module:               pais
+    prefix_path:          /paises
+    column:               codigo
+    with_wildcard_routes: true
+
+producto:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                producto
+    module:               producto
+    prefix_path:          /productos
+    column:               id
+    with_wildcard_routes: true
+
+categoria:
+  class: sfDoctrineRouteCollection
+  options:
+    model:                categoria
+    module:               categoria
+    prefix_path:          /categorias
+    column:               id
+    with_wildcard_routes: true
+
+sf_guard_signout:
+  url:   /logout
+  param: { module: sfGuardAuth, action: signout }
+
+sf_guard_password:
+  url:   /solicitar_password
+  param: { module: sfGuardAuth, action: password }
+
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/10-Routing
+
+# default rules
+homepage:
+  url:   /
+  param: { module: producto, action: index }
+

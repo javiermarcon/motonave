@@ -1,0 +1,892 @@
+	/* STYLES FOR CROSSFADER */
+
+	div.cf_wrapper
+	{
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	}
+
+	div.cf_element
+	{
+	width: 340px;
+	height: 150px;
+	background-color: #eee;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	}
+	
+	div.cf_element div.content
+	{
+	padding: 0px;
+	}
+	
+		/* STYLES FOR CROSSFADER LATERAL*/
+
+	div.cfsup-wrapper
+	{
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	}
+
+	div.cfsup-element
+	{
+	width: 620px;
+	height: 100px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	}
+	
+	div.cfsup-element div.contentsup
+	{
+	padding: 0px;
+	}
+
+		/* STYLES FOR DIV DESTACADOS*/
+
+	div.cfdh-wrapper
+	{
+	margin: 0px;
+	padding: 0px;
+	}
+
+	
+	div.cfdh-element
+	{
+	width: 960px;
+	height: 280px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	}
+#destaca {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 455px;
+	width: 710px;
+}
+	
+	div.cfdh-element div.contentdh
+	{
+	padding: 0px;
+	}
+body  {
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	text-align: center;
+	background-color: #000;
+	width: 960px;
+	background-image: url(/images/body2.gif);
+	background-position: center top;
+	background-repeat: no-repeat;
+	padding: 0px;
+}
+#contenedor {
+	margin-top: 0px;
+	margin-right: auto;
+	margin-bottom: 0px;
+	margin-left: auto;
+	width: 960px;
+	z-index: -5;
+	padding: 0px;
+}
+#menu {
+	margin: 0px;
+	float: left;
+	padding: 0px;
+	width: 100px;
+	position: relative;
+	z-index: 1;
+}
+#logo-home {
+	padding: 0px;
+	float: left;
+	z-index: 2;
+	height: 46px;
+	width: 280px;
+	text-align: left;
+	margin-top: -190px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 5px;
+	position: relative;
+}
+#menu a img {
+	margin: 0px;
+	float: left;
+	padding: 0px;
+	position: relative;
+	z-index: 0;
+}
+
+#sliders {
+	float: left;
+	width: 960px;
+	padding: 0px;
+	margin-top: -10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	z-index: 1;
+	position: relative;
+}
+#cuerpo {
+	float: left;
+	width: 960px;
+	z-index: 2;
+	margin-top: -20px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	position: relative;
+	background-image: url(/images/cuerpo.gif);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 50px;
+	padding-left: 0px;
+}
+
+#cuerpo-left {
+	float: left;
+	width: 198px;
+	margin: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+}
+#cuerpo-left-empresa {
+	background-image: url(/images/1-lateral.png);
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 31px;
+	width: 198px;
+}
+#cuerpo-left-empresa-interior {
+	background-image: url(/images/lateral-fondo.png);
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 198px;
+	background-repeat: repeat-y;
+	text-align: left;
+}
+#cuerpo-left-empresa-interior ul {
+	float: left;
+	list-style-type: none;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 8px;
+	padding-left: 0px;
+}
+#cuerpo-left-empresa-interior li {
+	list-style-type: none;
+	margin: 0px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 11px;
+	line-height: 16px;
+	font-weight: normal;
+	text-decoration: none;
+	color: #FFF;
+	padding-top: 1px;
+	padding-right: 0px;
+	padding-bottom: 2px;
+	padding-left: 0px;
+}
+#cuerpo-left-empresa-interior li a {
+	padding: 0px;
+	list-style-type: none;
+	margin: 0px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 11px;
+	line-height: 16px;
+	font-weight: normal;
+	text-decoration: none;
+	color: #FFF;
+}
+#cuerpo-left-empresa-interior li a:hover {
+	color: #7FB231;
+}
+
+.verde {
+	color: #74AB20;
+}
+.amarillo {
+	color: #EEAA34;
+}
+.fotoderecha {
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 10px;
+}
+
+.celeste {
+	color: #528B9B;
+}
+
+#cuerpo-left-tipo-moto {
+	background-image: url(/images/2-lateral-categorias.png);
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 27px;
+	width: 198px;
+}
+#cuerpo-left-tipo-moto-interior {
+	background-image: url(/images/lateral-fondo.png);
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 198px;
+	background-repeat: repeat-y;
+	text-align: left;
+}
+/*
+#cuerpo-left-tipo-moto-interior ul {
+	float: left;
+	list-style-type: none;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 8px;
+	padding-left: 0px;
+}
+#cuerpo-left-tipo-moto-interior li {
+	list-style-type: none;
+	margin: 0px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 11px;
+	line-height: 16px;
+	font-weight: normal;
+	text-decoration: none;
+	color: #FFF;
+	padding-top: 1px;
+	padding-right: 0px;
+	padding-bottom: 2px;
+	padding-left: 0px;
+}
+#cuerpo-left-tipo-moto-interior li a {
+	padding: 0px;
+	list-style-type: none;
+	margin: 0px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 11px;
+	line-height: 16px;
+	font-weight: normal;
+	text-decoration: none;
+	color: #FFF;
+}
+#cuerpo-left-tipo-moto-interior li a:hover {
+	color: #F4AE34;
+}
+*/
+#cuerpo-left-marcas {
+	background-image: url(/images/3-lateral-marcas.png);
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 26px;
+	width: 198px;
+}
+#cuerpo-left-marcas-interior {
+	background-image: url(/images/lateral-fondo.png);
+	background-repeat: repeat-y;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 198px;
+	text-align: left;
+}
+
+#cuerpo-left-marcas-interior ul {
+	float: left;
+	list-style-type: none;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	padding-top: 5px;
+	padding-right: 0px;
+	padding-bottom: 8px;
+	padding-left: 0px;
+}
+#cuerpo-left-marcas-interior li {
+	list-style-type: none;
+	margin: 0px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 11px;
+	line-height: 16px;
+	font-weight: normal;
+	text-decoration: none;
+	color: #FFF;
+	padding-top: 1px;
+	padding-right: 0px;
+	padding-bottom: 2px;
+	padding-left: 0px;
+}
+#cuerpo-left-marcas-interior li a {
+	padding: 0px;
+	list-style-type: none;
+	margin: 0px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 11px;
+	line-height: 16px;
+	font-weight: normal;
+	text-decoration: none;
+	color: #FFF;
+}
+#cuerpo-left-marcas-interior li a:hover {
+	color: #568E9E;
+}
+
+#cuerpo-left-inf {
+	background-image: url(/images/lateral-base.png);
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	height: 21px;
+	width: 198px;
+}
+#pie {
+	background-image: url(/images/pie.jpg);
+	height: 29px;
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 960px;
+	background-repeat: no-repeat;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 12px;
+	line-height: 29px;
+	color: #FFF;
+	font-weight: normal;
+}
+#cuerpo-right {
+	margin: 0px;
+	float: left;
+	width: 745px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 5px;
+}
+#cuerpo-right-interno {
+	float: left;
+	width: 742px;
+	padding: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#cuerpo-right-interno-superior {
+    background-image: url(/images/bandera_motonave.jpg);
+	margin: 0px;
+	float: left;
+	height: 30px;
+	width: 750px;
+	background-repeat: no-repeat;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+    font-size: 20px;
+    font-style: oblique;
+    font-weight: bolder;
+    font-variant: normal;
+    color: #ff0000;
+    font-family: 'Courier New',Courier,monospace;
+}
+#cuerpo-right-interno-completo {
+	width: 722px;
+	float: left;
+	background-repeat: no-repeat;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 150px;
+	padding-left: 10px;
+	background-position: bottom;
+	text-align: left;
+	margin: 0px;
+}
+#bienvenidos {
+	padding: 0px;
+	float: left;
+	width: 715px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	background-image: url(/images/destacado-superior-cuerpo-nuevo-2.png);
+	background-repeat: no-repeat;
+}
+#nuevobienvenidos {
+	padding: 10px;
+	float: left;
+	width: 695px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	background-image: url(/images/destacado-superior-cuerpo-nuevo.png);
+	height: 85px;
+}
+
+
+#nuevobienvenidos h1 {
+	color: #70A121;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 18px;
+	line-height: 25px;
+	margin: 0px;
+	padding: 0px;
+	font-weight: normal;
+}
+#nuevobienvenidos h2 {
+	color: #346877;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	margin: 0px;
+	padding: 0px;
+	font-weight: normal;
+}
+
+#nuevobienvenidos p {
+	color: #333;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 11px;
+	line-height: 16px;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+#bienvenidos-sup {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 715px;
+	background-image: url(/images/destacado-superior-cuerpo_01.jpg);
+	height: 20px;
+	background-repeat: no-repeat;
+}
+#bienvenidos-medio {
+	margin: 0px;
+	float: left;
+	width: 695px;
+	background-image: url(/images/destacado-superior-cuerpo_02.jpg);
+	background-repeat: no-repeat;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	height: 54px;
+}
+#bienvenidos-medio2 {
+	margin: 0px;
+	float: left;
+	width: 695px;
+	background-image: url(/images/destacado-superior-cuerpo_02-2.jpg);
+	background-repeat: repeat-y;
+	padding-top: 5px;
+	padding-right: 10px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+}
+
+#bienvenidos-inf {
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	width: 715px;
+	background-image: url(/images/destacado-superior-cuerpo_03.jpg);
+	height: 21px;
+	background-repeat: no-repeat;
+}
+#bienvenidos-medio h1 {
+	color: #70A121;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 18px;
+	line-height: 25px;
+	margin: 0px;
+	padding: 0px;
+	font-weight: normal;
+}
+#bienvenidos-medio h2 {
+	color: #346877;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	margin: 0px;
+	padding: 0px;
+	font-weight: normal;
+}
+
+#bienvenidos-medio p {
+	color: #333;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 11px;
+	line-height: 16px;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+#bienvenidos2 {
+	padding: 10px;
+	float: left;
+	width: 695px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	background-image: url(/images/destacado-superior-cuerpo-nuevo-2.png);
+	height: 85px;
+}
+
+
+#bienvenidos2 h1 {
+	color: #70A121;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 18px;
+	line-height: 25px;
+	margin: 0px;
+	padding: 0px;
+	font-weight: normal;
+}
+#bienvenidos2 h2 {
+	color: #346877;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	margin: 0px;
+	padding: 0px;
+	font-weight: normal;
+}
+
+#bienvenidos2 p {
+	color: #333;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 11px;
+	line-height: 16px;
+	margin: 0px;
+	padding: 0px;
+}
+
+
+
+#bienvenidos3 {
+	padding: 10px;
+	float: left;
+	width: 695px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	background-image: url(/images/destacado-superior-cuerpo-nuevo.png);
+	height: 85px;
+}
+
+
+#bienvenidos3 h1 {
+	color: #70A121;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 18px;
+	line-height: 25px;
+	margin: 0px;
+	padding: 0px;
+	font-weight: normal;
+}
+#bienvenidos3 h2 {
+	color: #346877;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 14px;
+	line-height: 20px;
+	margin: 0px;
+	padding: 0px;
+	font-weight: normal;
+}
+
+#bienvenidos3 p {
+	color: #333;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 11px;
+	line-height: 16px;
+	margin: 0px;
+	padding: 0px;
+}
+
+#banner {
+	margin: 0px;
+	float: left;
+	padding-top: 15px;
+	padding-right: 3px;
+	padding-bottom: 15px;
+	padding-left: 1px;
+}
+#productos {
+	float: left;
+	width: 710px;
+	margin-top: 0px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	padding: 0px;
+}
+#productos-home {
+	float: left;
+	width: 710px;
+	margin-top: 0px;
+	margin-right: 5px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	padding: 0px;
+	height: 455px;
+}
+
+#productos-interno {
+	float: left;
+	width: 695px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+	padding: 0px;
+}
+
+#cuadro {
+	background-image: url(/images/cuadro.png);
+	float: left;
+	height: 127px;
+	width: 316px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	margin-top: 2px;
+	margin-right: 2px;
+	margin-bottom: 2px;
+	margin-left: 3px;
+}
+#cuadro-foto {
+	padding: 2px;
+	text-align: center;
+}
+#cuadro-texto {
+	padding: 2px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 12px;
+	line-height: 16px;
+	font-weight: normal;
+	color: #333;
+	text-transform: uppercase;
+	text-align: center;
+}
+#cuadro-texto a {
+	text-decoration: none;
+	color: #333;
+}
+#cuadro-texto a:hover {
+	text-decoration: underline;
+	color: #333;
+}
+
+#cuadroext {
+	background-image: url(/images/cuadroext.png);
+	float: left;
+	height: 147px;
+	width: 216px;
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding-top: 10px;
+	padding-right: 5px;
+	padding-bottom: 10px;
+	padding-left: 5px;
+	margin-top: 2px;
+	margin-right: 2px;
+	margin-bottom: 2px;
+	margin-left: 3px;
+}
+
+.marquesina {
+    background-color:#0080FF;
+}
+
+.cuadro_sup {
+	float: left;
+	width: 330px;
+	padding: 0px;
+	background-image: url(/images/cuadro_sup.png);
+	margin: 0px;
+	height: 10px;
+	background-repeat: no-repeat;
+}
+.cuadro_medio {
+	float: left;
+	width: 330px;
+	padding: 0px 3px 0px 3px;
+	background-image: url(/images/cuadro_medio.png);
+	margin: 0px;
+	background-repeat: repeat-y;
+}
+
+.cuadro_inf {
+	float: left;
+	width: 330px;
+	padding: 0px;
+	background-image: url(/images/cuadro_inf.png);
+	margin: 0px;
+	background-repeat: no-repeat;
+	height: 16px;
+}
+
+#productos-sup {
+	float: left;
+	width: 715px;
+	padding: 0px;
+	background-image: url(/images/productos_01.png);
+	margin: 0px;
+	height: 20px;
+}
+#productos-medio {
+	float: left;
+	width: 695px;
+	padding: 10px;
+	background-image: url(/images/productos_02.png);
+	margin: 0px;
+	background-repeat: repeat-y;
+}
+#productos-medio-fotos-bajo {
+	float: left;
+	width: 695px;
+	padding: 0px;
+	margin-top: 10px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+}
+#formulario-bajo {
+	padding: 5px;
+	float: left;
+	height: 360px;
+	width: 600px;
+	margin-top: 0px;
+	margin-right: 5px;
+	margin-bottom: 0px;
+	margin-left: 25px;
+}
+
+#productos-medio-fotos-bajo input {
+	background-color: #FFF;
+	border: 1px solid #CCC;
+
+}
+
+#productos-inf {
+	float: left;
+	width: 715px;
+	padding: 0px;
+	background-image: url(/images/productos_03.png);
+	margin: 0px;
+	background-repeat: no-repeat;
+	height: 21px;
+}
+#productos-medio p, div {
+	margin: 0px;
+	padding: 0px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 11px;
+	line-height: 14px;
+	color: #333;
+}
+#productos h1 {
+	margin: 0px;
+	padding: 0px;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+	color: #649503;
+}
+
+
+#productos-medio-texto {
+	float: left;
+	padding: 5px;
+	margin: 0px;
+	width: 410px;
+	text-align: justify;
+}
+#productos-medio-fotos {
+	float: left;
+	width: 260px;
+	padding: 5px;
+	margin: 0px;
+	text-align: center;
+	overflow: hidden;
+	height: 200px;
+}
+.buscar-caja {
+	border: 2px solid #9C0;
+	background-color: #FFF;
+	margin-right: 5px;
+}
+.post-body{
+	max-width:140px;
+	max-height:100px;
+ width: expression(this.width > 140 ? 140: true);
+     height: expression(this.height > 100 ? 100: true);
+    }
+.post-body-marca {
+	max-width:130px;
+	max-height:100px;
+width: expression(this.width > 130 ? 130: true);
+     height: expression(this.height > 100 ? 100: true);
+}
+
+.post-body2{
+	max-width:250px;
+	max-height:250px;
+ width: expression(this.width > 250 ? 250: true);
+     height: expression(this.height > 250 ? 250: true);
+    }
+.post-body3{
+	max-width:220px;
+	max-height:220px;
+width: expression(this.width > 220 ? 220: true);
+     height: expression(this.height > 220 ? 220: true);
+    }
+	#productos-medio-fotos-adicionales {
+	float: left;
+	width: 220px;
+	margin-top: 5px;
+	margin-right: 2px;
+	margin-bottom: 5px;
+	margin-left: 2px;
+	padding-top: 0px;
+	padding-right: 2px;
+	padding-bottom: 5px;
+	padding-left: 2px;
+	text-align: center;
+}
+.max685{  max-width: 685px; /*pra firefox & otros*/  width: expression(this.width > 685 ? 685: true); /*Para Internet explorer*/ }

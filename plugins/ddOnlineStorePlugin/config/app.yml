@@ -1,0 +1,21 @@
+all:
+  sfJqueryTree:
+    route_back:       online_store_admin_category
+    route_edit:       online_store_admin_category_edit
+  
+  sfImageTransformPlugin:
+    default_adapter: GD # GD or ImageMagick
+    mime_type:
+      auto_detect: true
+      
+  sfDoctrineJCroppablePlugin:
+    models:
+      ProductImage:
+        directory:    products
+        images:
+          image_name:
+            padding:    { percent: 0, color: "#ffffff" }
+            ratio:      1.56
+            sizes:
+              thumb:    { width: 210 }
+              detail:   { width: 417 }

@@ -1,0 +1,40 @@
+This plugin allows you to easily create a pdf file. You can also import an existing pdf in the background. 
+
+
+**Install:**
+
+    svn checkout http://sf-tcpdf-reloaded-plugin.googlecode.com/svn/trunk/plugins/sfTCPDFFPDIPluginPlugin
+    php symfony cc
+    php symfony plugin:publish-assets
+
+**Add the Plugin in your ProjectConfiguration Class**
+
+example:
+
+    $this->enablePlugins(array('sfDoctrinePlugin','sfTCPDFFPDIPlugin'));
+
+Download the TCPDFLib from:
+http://www.tcpdf.org/
+
+Copy the files into yourProjectPath/plugins/sfTCPDFFPDIPluginPlugin/lib/tcpdf/
+
+Activate the Plugin in your ProjectConfiguration.Class
+
+**Example:**
+
+    $this->enablePlugins(array('sfDoctrinePlugin','sfTCPDFFPDIPlugin'));
+
+
+**Usage example:**
+
+    [PHP]
+    $pdf = new sfTCPDFFPDI();
+    $pdf->setPdfBackground(sfConfig::get('sf_plugins_dir').'/sfTCPDFFPDIPlugin/data/example.pdf');
+    $pdf->AddPage();
+    $pdf->writeHTML('Hello World!');
+
+    $pdf->Output('ibrows.ch.pdf', 'I');
+
+
+more examples under:
+http://www.tcpdf.org/examples.php

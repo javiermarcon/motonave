@@ -1,0 +1,14 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/07-Databases
+
+all:
+  doctrine:
+    class: sfDoctrineDatabase
+    param:
+      #dsn:      mysql:host=127.0.0.1;dbname=mis-dns_sf2
+      #username: mis-dns-asd
+      #password: killer
+      dsn:      mysql:host=127.0.0.1;dbname=motonave
+      username: root
+      password: killer
+

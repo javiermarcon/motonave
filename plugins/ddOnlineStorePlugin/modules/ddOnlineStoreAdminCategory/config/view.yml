@@ -1,0 +1,9 @@
+all:
+  javascripts:
+    - /sfJqueryReloadedPlugin/js/jquery-1.4.2.min.js
+  stylesheets:
+    - /ddOnlineStorePlugin/css/screen.css
+    
+indexSuccess:
+  javascripts:
+    - /ddOnlineStorePlugin/js/jquery.tablednd_0_5.js

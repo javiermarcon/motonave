@@ -1,0 +1,193 @@
+<?php
+
+/**
+ * producto form.
+ *
+ * @package    importmol
+ * @subpackage form
+ * @author     Javier Marcon
+ * @version    SVN: $Id: sfDoctrineFormTemplate.php 23810 2009-11-12 11:07:44Z Kris.Wallsmith $
+ */
+class productoForm extends BaseproductoForm
+{
+  public function configure()
+  {
+      unset($this['stock']);
+	  
+/*    $this->widgetSchema['foto'] = new sfWidgetFormInputFileEditable(array(
+      'label'     => 'Foto',
+      'file_src'  => sfConfig::get('sf_upload_dir').'/productos'.$this->getObject()->getFoto(),
+      'is_image'  => true,
+      'edit_mode' => !$this->isNew(),
+      'template'  => '<div>%file%<br />%input%<br />%delete% %delete_label%</div>',
+    ));*/
+
+	for ($i = 1; $i <= 6; $i++)
+	{
+		$metodo = 'getFoto'.$i;
+		$this->widgetSchema['foto'.$i] = new sfWidgetFormInputFileEditable(array(
+		   'label'     => 'Imagen '.$i,
+		   'file_src'  => 'uploads/productos/s_'.$this->getObject()->$metodo(),
+		   'is_image'  => true,
+		   'edit_mode' => !$this->isNew(),
+		   'template'  => '<div>%file%<br /><label></label>%input%<br /><label></label>%delete% Eliminar imagen actual</div>',
+		));
+	
+		$this->validatorSchema['foto'.$i.'_delete'] = new sfValidatorBoolean();
+	
+		$this->validatorSchema['foto'.$i] = new sfValidatorFile(array(
+		   'required'   => false,
+		   'mime_types' => 'web_images',
+		   'path' => sfConfig::get('sf_upload_dir').'/productos',
+		   'validated_file_class' => 'sfResizedFile',
+		));
+	}
+
+	
+	/*$this->widgetSchema['foto2'] = new sfWidgetFormInputFileEditable(array(
+	   'label'     => 'Imagen 2',
+	   'file_src'  => 'uploads/productos/'.$this->getObject()->getFoto2(),
+	   'is_image'  => true,
+	   'edit_mode' => !$this->isNew(),
+	   'template'  => '<div>%file%<br /><label></label>%input%<br /><label></label>%delete% Eliminar imagen actual</div>',
+	));
+	$this->widgetSchema['foto3'] = new sfWidgetFormInputFileEditable(array(
+	   'label'     => 'Imagen 3',
+	   'file_src'  => 'uploads/productos/'.$this->getObject()->getFoto3(),
+	   'is_image'  => true,
+	   'edit_mode' => !$this->isNew(),
+	   'template'  => '<div>%file%<br /><label></label>%input%<br /><label></label>%delete% Eliminar imagen actual</div>',
+	));
+	$this->widgetSchema['foto4'] = new sfWidgetFormInputFileEditable(array(
+	   'label'     => 'Imagen 4',
+	   'file_src'  => 'uploads/productos/'.$this->getObject()->getFoto4(),
+	   'is_image'  => true,
+	   'edit_mode' => !$this->isNew(),
+	   'template'  => '<div>%file%<br /><label></label>%input%<br /><label></label>%delete% Eliminar imagen actual</div>',
+	));
+	$this->widgetSchema['foto5'] = new sfWidgetFormInputFileEditable(array(
+	   'label'     => 'Imagen 5',
+	   'file_src'  => 'uploads/productos/'.$this->getObject()->getFoto5(),
+	   'is_image'  => true,
+	   'edit_mode' => !$this->isNew(),
+	   'template'  => '<div>%file%<br /><label></label>%input%<br /><label></label>%delete% Eliminar imagen actual</div>',
+	));
+	$this->widgetSchema['foto6'] = new sfWidgetFormInputFileEditable(array(
+	   'label'     => 'Imagen 6',
+	   'file_src'  => 'uploads/productos/'.$this->getObject()->getFoto6(),
+	   'is_image'  => true,
+	   'edit_mode' => !$this->isNew(),
+	   'template'  => '<div>%file%<br /><label></label>%input%<br /><label></label>%delete% Eliminar imagen actual</div>',
+	));*/
+    /* $this->widgetSchema['foto1'] = new sfWidgetFormInputFile(array(
+      'label' => 'Foto',
+    )); */
+ 
+    
+	/*$this->validatorSchema['foto2_delete'] = new sfValidatorBoolean();
+	$this->validatorSchema['foto3_delete'] = new sfValidatorBoolean();
+	$this->validatorSchema['foto4_delete'] = new sfValidatorBoolean();
+	$this->validatorSchema['foto5_delete'] = new sfValidatorBoolean();
+	$this->validatorSchema['foto6_delete'] = new sfValidatorBoolean();*/
+
+	//$this->validatorSchema['foto6_delete'] = new sfValidatorPass();
+
+	/* $this->validatorSchema['foto2'] = new sfValidatorFile(array(
+	   'required'   => false,
+	   'mime_types' => 'web_images',
+	   'path' => sfConfig::get('sf_upload_dir').'/productos',
+	   'validated_file_class' => 'sfResizedFile',
+	));
+	$this->validatorSchema['foto3'] = new sfValidatorFile(array(
+	   'required'   => false,
+	   'mime_types' => 'web_images',
+	   'path' => sfConfig::get('sf_upload_dir').'/productos',
+	   'validated_file_class' => 'sfResizedFile',
+	));
+	$this->validatorSchema['foto4'] = new sfValidatorFile(array(
+	   'required'   => false,
+	   'mime_types' => 'web_images',
+	   'path' => sfConfig::get('sf_upload_dir').'/productos',
+	   'validated_file_class' => 'sfResizedFile',
+	));
+	$this->validatorSchema['foto5'] = new sfValidatorFile(array(
+	   'required'   => false,
+	   'mime_types' => 'web_images',
+	   'path' => sfConfig::get('sf_upload_dir').'/productos',
+	   'validated_file_class' => 'sfResizedFile',
+	));
+	$this->validatorSchema['foto6'] = new sfValidatorFile(array(
+	   'required'   => false,
+	   'mime_types' => 'web_images',
+	   'path' => sfConfig::get('sf_upload_dir').'/productos',
+	   'validated_file_class' => 'sfResizedFile',
+	)); */
+	
+    /* $this->validatorSchema['foto1'] = new sfValidatorFile(array(
+      'required'   => false,
+      'path'       => sfConfig::get('sf_upload_dir').'/productos',
+      'mime_types' => 'web_images',
+    ));
+    $this->validatorSchema['foto2'] = new sfValidatorFile(array(
+      'required'   => false,
+      'path'       => sfConfig::get('sf_upload_dir').'/productos',
+      'mime_types' => 'web_images',
+    ));
+    $this->validatorSchema['foto3'] = new sfValidatorFile(array(
+      'required'   => false,
+      'path'       => sfConfig::get('sf_upload_dir').'/productos',
+      'mime_types' => 'web_images',
+    ));
+    $this->validatorSchema['foto4'] = new sfValidatorFile(array(
+      'required'   => false,
+      'path'       => sfConfig::get('sf_upload_dir').'/productos',
+      'mime_types' => 'web_images',
+    ));
+    $this->validatorSchema['foto5'] = new sfValidatorFile(array(
+      'required'   => false,
+      'path'       => sfConfig::get('sf_upload_dir').'/productos',
+      'mime_types' => 'web_images',
+    ));
+    $this->validatorSchema['foto6'] = new sfValidatorFile(array(
+      'required'   => false,
+      'path'       => sfConfig::get('sf_upload_dir').'/productos',
+      'mime_types' => 'web_images',
+    )); */
+  }
+
+  public function doSave($con = null)
+	{
+	//si elimino la imagen con check
+	for ($i = 1; $i <= 6; $i++)
+		{
+		$metodoGet = 'getFoto'.$i;
+		$metodoSet = 'getFoto'.$i;
+		if($this->getValue('foto'.$i.'_delete'))
+		{
+			$filename = $this->getObject()->$metodoGet();
+
+			//directorio de la imagen original
+			$fpath = sfConfig::get('sf_upload_dir').'/productos/';
+			@unlink($fpath.$filename);
+			//directorio de la imagen con tamaño distinto
+			@unlink($fpath.'s_'.$filename);
+
+			$this->getObject()->$metodoSet(null);
+		}
+		if($this->getValue('foto'.$i))
+		{
+			$filename = $this->getObject()->$metodoGet();
+
+			//directorio de la imagen original
+			$fpath = sfConfig::get('sf_upload_dir').'/productos/';
+			@unlink($fpath.$filename);
+			//directorio de la imagen con tamaño distinto
+			@unlink($fpath.'s_'.$filename);
+
+			$this->getObject()->$metodoSet(null);
+		}
+
+		return parent::doSave($con);
+		}
+	}
+}

@@ -1,0 +1,16 @@
+all:
+  # Listado de productos
+  max_productos_en_pagina_principal: 1
+  thumb_foto_catalogo_ancho: 100
+  thumb_foto_catalogo_alto: 100
+  foto_catalogo_ancho: 300
+  foto_catalogo_alto: 300
+  
+  #configuracion general
+  grupo_de_clientes: clientes
+
+  email_motonave: javiermarcon@gmail.com
+  email_motonave_nombre: Ventas Motonave
+
+  asunto_contacto: Consulta desde Motonave
+  

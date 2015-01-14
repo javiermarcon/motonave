@@ -1,0 +1,20 @@
+# You can find more information about this file on the symfony website:
+# http://www.symfony-project.org/reference/1_4/en/13-View
+
+default:
+  http_metas:
+    content-type: text/html
+
+  metas:
+    title:        Motonave Importmol - Catalogo
+    description:  Catalogo de productos de Motonave Importmol
+    keywords:     moto, motos, motonave, importmol, cascos, indumentaria, accesorios, alta gama, indumentaria de motos, indumentaria deportiva
+    language:     es
+    robots:       index, follow
+#swfobject_modified.js, 
+  stylesheets:    [main.css, global.css, shadowbox.css, contentslider.css, nested-set.css, colorbox.css, jquery.treeview.css]
+
+  javascripts:    [contentslider.js, shadowbox.js, bsn.js, jquery.colorbox-min.js, jquery.treeview.js]
+
+  has_layout:     true
+  layout:         layout

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding=""?>
+<package xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" packagerversion="1.4.1" version="2.0" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0 http://pear.php.net/dtd/tasks-1.0.xsd http://pear.php.net/dtd/package-2.0 http://pear.php.net/dtd/package-2.0.xsd">
+  <name>ddOnlineStorePlugin</name>
+  <channel>plugins.symfony-project.org</channel>
+  <summary>The ddOnlineStorePlugin is a symfony plugin that provides models (categories and products objects), 
+modules and others features to manage a real **catalog** for a online store.</summary>
+ <description>The ddOnlineStorePlugin is a symfony plugin that provides models (categories and products objects), 
+modules and others features to manage a real **catalog** for a online store.</description>
+  <lead>
+    <name>Diego Damico</name>
+    <user>songecko</user>
+    <email>songecko@gmail.com</email>
+    <active>yes</active>
+  </lead>
+  <date>2011-04-15</date>
+  <version>
+    <release>1.2.0</release>
+    <api>1.2.0</api>
+  </version>
+  <stability>
+    <release>stable</release>
+    <api>stable</api>
+  </stability>
+  <license uri="http://www.symfony-project.org/license">MIT license</license>
+  <notes>-</notes>
+  <contents>
+    <dir name="/"><dir name="config"><file name="app.yml" role="data"/><file name="ddOnlineStorePluginConfiguration.class.php" role="data"/><dir name="doctrine"><file name="schema.yml" role="data"/></dir><file name="routing.yml" role="data"/></dir><dir name="data"><dir name="fixtures"><file name="categories.yml.sample" role="data"/><file name="products.yml.sample" role="data"/></dir></dir><file name="ddOnlineStorePlugin-1.0.1.tgz" role="data"/><dir name="lib"><dir name="filter"><dir name="doctrine"><file name="PluginProductCategoryFormFilter.class.php" role="data"/><file name="PluginProductColorFormFilter.class.php" role="data"/><file name="PluginProductFormFilter.class.php" role="data"/><file name="PluginProductImageFormFilter.class.php" role="data"/></dir></dir><dir name="form"><dir name="doctrine"><file name="PluginProductCategoryForm.class.php" role="data"/><file name="PluginProductColorForm.class.php" role="data"/><file name="PluginProductForm.class.php" role="data"/><file name="PluginProductImageForm.class.php" role="data"/></dir></dir><dir name="model"><dir name="doctrine"><file name="PluginProduct.class.php" role="data"/><file name="PluginProductCategory.class.php" role="data"/><file name="PluginProductCategoryTable.class.php" role="data"/><file name="PluginProductColor.class.php" role="data"/><file name="PluginProductColorTable.class.php" role="data"/><file name="PluginProductImage.class.php" role="data"/><file name="PluginProductImageTable.class.php" role="data"/><file name="PluginProductTable.class.php" role="data"/></dir></dir><dir name="validator"><file name="ddValidatorColorPicker.class.php" role="data"/></dir><dir name="widget"><file name="ddWidgetFormColorPicker.class.php" role="data"/><file name="ImageUploadWidget.php" role="data"/><file name="sfWidgetFormDoctrineChoiceCategory.class.php" role="data"/><file name="sfWidgetFormSelectCategory.class.php" role="data"/></dir></dir><file name="LICENSE" role="data"/><dir name="modules"><dir name="ddOnlineStoreAdminCategory"><dir name="actions"><file name="actions.class.php" role="data"/></dir><dir name="config"><file name="generator.yml" role="data"/><file name="view.yml" role="data"/></dir><dir name="lib"><file name="ddOnlineStoreAdminCategoryGeneratorConfiguration.class.php" role="data"/><file name="ddOnlineStoreAdminCategoryGeneratorHelper.class.php" role="data"/></dir><dir name="templates"><file name="jsonSuccess.php" role="data"/><file name="manageTreeSuccess.php" role="data"/><file name="_list.php" role="data"/></dir></dir><dir name="ddOnlineStoreAdminProduct"><dir name="actions"><file name="actions.class.php" role="data"/></dir><dir name="config"><file name="generator.yml" role="data"/><file name="view.yml" role="data"/></dir><dir name="lib"><file name="BaseddOnlineStoreAdminProductActions.class.php" role="data"/><file name="ddOnlineStoreAdminProductGeneratorConfiguration.class.php" role="data"/><file name="ddOnlineStoreAdminProductGeneratorHelper.class.php" role="data"/></dir><dir name="templates"><file name="_capacity.php" role="data"/><file name="_image.php" role="data"/><file name="_manage_colors.php" role="data"/><file name="_manage_images.php" role="data"/><file name="_price.php" role="data"/></dir></dir><dir name="ddOnlineStoreAdminProductColor"><dir name="actions"><file name="actions.class.php" role="data"/></dir><dir name="config"><file name="generator.yml" role="data"/></dir><dir name="lib"><file name="ddOnlineStoreAdminProductColorGeneratorConfiguration.class.php" role="data"/><file name="ddOnlineStoreAdminProductColorGeneratorHelper.class.php" role="data"/></dir><dir name="templates"><file name="_color.php" role="data"/><file name="_filters.php" role="data"/><file name="_list_header.php" role="data"/></dir></dir><dir name="ddOnlineStoreAdminProductImage"><dir name="actions"><file name="actions.class.php" role="data"/></dir><dir name="config"><file name="generator.yml" role="data"/><file name="view.yml" role="data"/></dir><dir name="lib"><file name="ddOnlineStoreAdminProductImageGeneratorConfiguration.class.php" role="data"/><file name="ddOnlineStoreAdminProductImageGeneratorHelper.class.php" role="data"/></dir><dir name="templates"><file name="_filters.php" role="data"/><file name="_image_thumb.php" role="data"/><file name="_list_header.php" role="data"/></dir></dir><dir name="ddOnlineStoreProduct"><dir name="actions"><file name="actions.class.php" role="data"/><file name="components.class.php" role="data"/></dir><dir name="config"><file name="view.yml" role="data"/></dir><dir name="templates"><file name="indexSuccess.php" role="data"/><file name="_list.php" role="data"/><file name="_list_footer.php" role="data"/><file name="_list_header.php" role="data"/><file name="_list_item.php" role="data"/><file name="_list_pager.php" role="data"/><file name="_list_pager_extra_content.php" role="data"/><file name="_productList.php" role="data"/></dir></dir></dir><file name="package.xml.error" role="data"/><file name="README" role="data"/><dir name="web"><dir name="css"><file name="colorbox.css" role="data"/><file name="colorpicker.css" role="data"/><file name="Jcrop.gif" role="data"/><file name="jquery.Jcrop.css" role="data"/><file name="screen.css" role="data"/></dir><dir name="images"><file name="blank.gif" role="data"/><file name="border.png" role="data"/><file name="colorpicker_background.png" role="data"/><file name="colorpicker_hex.png" role="data"/><file name="colorpicker_hsb_b.png" role="data"/><file name="colorpicker_hsb_h.png" role="data"/><file name="colorpicker_hsb_s.png" role="data"/><file name="colorpicker_indic.gif" role="data"/><file name="colorpicker_overlay.png" role="data"/><file name="colorpicker_rgb_b.png" role="data"/><file name="colorpicker_rgb_g.png" role="data"/><file name="colorpicker_rgb_r.png" role="data"/><file name="colorpicker_select.gif" role="data"/><file name="colorpicker_submit.png" role="data"/><file name="controls.png" role="data"/><file name="custom_background.png" role="data"/><file name="custom_hex.png" role="data"/><file name="custom_hsb_b.png" role="data"/><file name="custom_hsb_h.png" role="data"/><file name="custom_hsb_s.png" role="data"/><file name="custom_indic.gif" role="data"/><file name="custom_rgb_b.png" role="data"/><file name="custom_rgb_g.png" role="data"/><file name="custom_rgb_r.png" role="data"/><file name="custom_submit.png" role="data"/><dir name="internet_explorer"><file name="borderBottomCenter.png" role="data"/><file name="borderBottomLeft.png" role="data"/><file name="borderBottomRight.png" role="data"/><file name="borderMiddleLeft.png" role="data"/><file name="borderMiddleRight.png" role="data"/><file name="borderTopCenter.png" role="data"/><file name="borderTopLeft.png" role="data"/><file name="borderTopRight.png" role="data"/></dir><file name="loading.gif" role="data"/><file name="loading_background.png" role="data"/><file name="overlay.png" role="data"/><file name="select.png" role="data"/><file name="select2.png" role="data"/><file name="slider.png" role="data"/><file name="tree_view.gif" role="data"/><file name="waiting.gif" role="data"/></dir><dir name="js"><file name="colorpicker.js" role="data"/><file name="jquery.colorbox-min.js" role="data"/><file name="jquery.Jcrop.min.js" role="data"/><file name="jquery.tablednd_0_5.js" role="data"/></dir></dir></dir>
+  </contents>
+  <dependencies>
+    <required>
+      <php>
+        <min>5.2.4</min>
+      </php>
+      <pearinstaller>
+        <min>1.4.1</min>
+      </pearinstaller>
+      <package>
+        <name>symfony</name>
+        <channel>pear.symfony-project.com</channel>
+        <min>1.3.0</min>
+        <max>1.5.0</max>
+        <exclude>1.5.0</exclude>
+      </package>
+    </required>
+  </dependencies>
+  <phprelease></phprelease>
+  <changelog>
+  <release>
+   <version>
+    <release>1.1.0</release>
+    <api>1.1.0</api>
+   </version>
+   <stability>
+    <release>stable</release>
+    <api>stable</api>
+   </stability>
+   <license uri="http://www.symfony-project.com/license">MIT license</license>
+   <license>MIT</license>
+   <date>2011-04-15</date>
+   <notes>
+    * new features
+   </notes>
+  </release>
+ </changelog>
+</package>

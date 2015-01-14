@@ -1,0 +1,48 @@
+generator:
+  class:                   sfDoctrineGenerator
+  param:
+    model_class:           ProductCategory
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          online_store_admin_category
+    with_doctrine_route:   true
+    actions_base_class:    sfActions
+    css:                   false
+       
+    config:
+      actions: ~
+      fields:  ~
+      
+      list:    
+        title:             "Product Categories list"
+        display:           [ name ]
+        table_method:      addFetchRootsInQuery
+        object_actions:
+          _edit:           ~
+          manage_tree:     
+            label:         "Manage tree"
+            params:        { class: "manage_tree" }
+            action:        "manageTree"
+          _delete:         ~
+        actions:
+          _new:            { label: "New Root Category" }
+          
+      filter:
+        class:             false
+        
+      form:    
+        display:
+          Data:            [ name, description ]
+        actions:
+          _list:           ~
+          _save:           ~
+          _save_and_add:   { label: "save and add another category" } 
+          
+      edit:    
+        title:             "Edit '%%name%%' category"
+        
+      new:     
+        title:             "New category"
